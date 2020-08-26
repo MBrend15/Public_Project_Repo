@@ -1,0 +1,7 @@
+#Wed Dec 14 18:31:58 EST 2016
+base.0=C\:\\Users\\bcmattina\\Documents\\NSA_Demo_06Sep2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_8dd72c92cdcf6c77b99b138c3dcb2996811454fd
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\bcmattina\\Documents\\NSA_Demo_06Sep2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_e3b171f36bd0533542018aa757644fb20d582c14\\classes.dex
+base.1=C\:\\Users\\bcmattina\\Documents\\NSA_Demo_06Sep2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_e3b171f36bd0533542018aa757644fb20d582c14
+file.0=C\:\\Users\\bcmattina\\Documents\\NSA_Demo_06Sep2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_8dd72c92cdcf6c77b99b138c3dcb2996811454fd\\classes.dex

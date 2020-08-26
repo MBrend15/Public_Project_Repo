@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+    <Button
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recallQuestions"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dip"
+        android:id="@+id/but_task1Submit" />
+
+    <TextView
+        android:text="How safe do you feel accessing\nthe network today? "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="20dip"
+        android:id="@+id/lbl_task1Question"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/recallQuestions"
+        android:layout_below="@+id/lbl_task1Question"
+        android:layout_alignLeft="@+id/lbl_task1Question"
+        android:layout_alignStart="@+id/lbl_task1Question"
+        android:layout_marginLeft="5dip">
+
+        <RadioButton
+            android:text="Very Safe (3 or Less High Threat Levels)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dip"
+            android:id="@+id/r1"
+            android:checked="false" />
+
+        <RadioButton
+            android:text="Safe (4 High Threat Levels)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:id="@+id/r2"
+            android:layout_below="@+id/r1"
+            android:layout_alignLeft="@+id/r1"
+            android:layout_alignStart="@+id/r1" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/r3"
+            android:layout_below="@+id/r2"
+            android:layout_alignLeft="@+id/r2"
+            android:layout_alignStart="@+id/r2"
+            android:layout_marginTop="10dip"
+            android:text="Unsure (5 High Threat Levels)" />
+
+        <RadioButton
+            android:text="Unsafe (6 High Threat Levels)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/r4"
+            android:layout_below="@+id/r3"
+            android:layout_alignLeft="@+id/r3"
+            android:layout_alignStart="@+id/r3"
+            android:layout_marginTop="10dip" />
+
+        <RadioButton
+            android:text="Very Unsafe (7+ High Threat Levels)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/r5"
+            android:layout_marginTop="10dip"
+            android:layout_below="@+id/r4"
+            android:layout_alignLeft="@+id/r4"
+            android:layout_alignStart="@+id/r4" />
+
+
+    </RadioGroup>
+
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="torgersen_6" size="1.000000 0.562500" />
+    <ImageTarget name="torgersen_5" size="1.000000 0.562500" />
+    <ImageTarget name="torgersen_4" size="1.000000 0.562500" />
+    <ImageTarget name="torgersen_3" size="1.000000 0.562500" />
+    <ImageTarget name="torgersen_2" size="1.000000 0.562500" />
+    <ImageTarget name="torgersen_1" size="1.000000 0.562500" />
+    <ImageTarget name="torgersen_0" size="1.000000 0.562500" />
+    <ImageTarget name="newman_6" size="1.000000 0.562500" />
+    <ImageTarget name="newman_5" size="1.000000 0.562500" />
+    <ImageTarget name="newman_4" size="1.000000 0.562500" />
+    <ImageTarget name="newman_3" size="1.000000 1.000335" />
+    <ImageTarget name="newman_2" size="1.000000 0.675433" />
+    <ImageTarget name="newman_1" size="1.000000 0.562500" />
+    <ImageTarget name="newman_0" size="1.000000 1.071285" />
+  </Tracking>
+</QCARConfig>

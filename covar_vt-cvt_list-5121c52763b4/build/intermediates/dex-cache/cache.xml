@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_4c668cb2be0d3120e574c3aa519ebf0e85f82147\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7f9c3cd7ec8a5512754b581f255d56016eeae85">
+        <dex dex="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_14100d3d88b8fbc7ef8c23ce2ca430a15eca5aac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_64e8b7a67ce0bd5b10a2ad5a9821d72bf11bb942\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_29997e164898afc4c9b1bf48ab19c7ce82327af4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_ef30d2ebd63f30b920595769cfa25be40c21f01a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_925b637859d99816b1605102d071488d4a09d512\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_affb5187a9f6e840b8ff6c860cdb55f18ad09e63\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4996a83fcef8a1dadc78fc14ccdda4d438d840c1">
+        <dex dex="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_1398f3ab1d43feb6cd8a682b6185e1942e34fc34\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_250824d63212d626979aa309e01f12d0ebb1ef4f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_a9b30ec273d78c3fa89d3105e16a7030b2881e52\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\CVT1_list\app\libs\volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\transforms\dex\debug\folders\1000\2\volley_bcf078f4fde54b88f92866472130407f6474f22c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\CVT1_list\app\libs\opencsv-3.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="248d4d05fe253a02a05601978f7de1305b8a961e">
+        <dex dex="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\transforms\dex\debug\folders\1000\2\opencsv-3.8_37e61c441b8c1b55eaeab14869cca0408ac25f22\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_9a6d025c52a9c4a197c9465e2834719735e7dc10\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_8cb8e4234b44995e14013ff0f741b41c05804c5e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Android\sdk2\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_65ad3dd13295af40b6b788887b2a26d6d62abcb0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_8074702fbecd818b73d4e594e3a48586dbff32de\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_6d03ddffa5386e04574cbe78b769f5a6a7967ce9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_2b8c2499f9e7a5f11193e329c8fc77498dac5b2c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\bcmattina\Documents\CVT1_list\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_18b60da41e4b49961344a5604289750512c2f850\classes.dex" />
+    </item>
+
+</items>

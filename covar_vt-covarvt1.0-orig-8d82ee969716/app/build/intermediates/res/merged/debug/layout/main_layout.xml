@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CVT 1.0"
+        android:id="@+id/title_text"
+        android:layout_alignParentTop="true" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:id="@+id/listView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title_text"
+        android:layout_above="@+id/listView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:id="@+id/start_button"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="right|bottom"
+            android:clickable="true"
+            android:onClick="Start_register"/>
+
+        <View
+            android:id="@+id/fl_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <Button
+            android:text="Refresh Query"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/butRefresh"
+            android:layout_gravity="bottom"
+            style="?android:attr/buttonStyleSmall"
+            android:onClick="RefreshQuery"/>
+
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/txtQuery"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Building: "
+        android:id="@+id/build_text"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/title_text"
+        android:layout_toEndOf="@+id/title_text"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp" />
+
+    <TextView
+        android:text="Attacks: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/frame_layout"
+        android:layout_toRightOf="@+id/build_text"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="84dp"
+        android:layout_marginEnd="84dp"
+        android:id="@+id/txt_totHits" />
+
+</RelativeLayout>

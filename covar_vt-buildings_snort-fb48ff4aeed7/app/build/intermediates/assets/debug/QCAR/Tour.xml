@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="torgersen-26-min" size="1.000000 1.777778" />
+    <ImageTarget name="torgersen-24" size="1.000000 1.777778" />
+    <ImageTarget name="torgersen-25" size="1.000000 1.777778" />
+    <ImageTarget name="torgersen-23" size="1.000000 1.777778" />
+    <ImageTarget name="torgersen-22-min" size="1.000000 1.777778" />
+    <ImageTarget name="torgersen-21" size="1.000000 1.777778" />
+    <ImageTarget name="torgersen-20" size="1.000000 1.777778" />
+    <ImageTarget name="patton-5" size="1.000000 1.683582" />
+    <ImageTarget name="torgersen-19" size="1.000000 0.562500" />
+    <ImageTarget name="torgersen-18" size="1.000000 0.562500" />
+    <ImageTarget name="torgersen-17" size="1.000000 0.562500" />
+    <ImageTarget name="torgersen-16" size="1.000000 0.562500" />
+    <ImageTarget name="torgersen-15" size="1.000000 0.493056" />
+    <ImageTarget name="torgersen-14" size="1.000000 0.905530" />
+    <ImageTarget name="torgersen-13" size="1.000000 0.358906" />
+    <ImageTarget name="mcbryde-7" size="1.000000 1.105398" />
+    <ImageTarget name="mcbryde-6" size="1.000000 0.588235" />
+    <ImageTarget name="torgersen-z-0" size="1.000000 0.562500" />
+    <ImageTarget name="newman_0" size="1.000000 0.562500" />
+    <ImageTarget name="patton-14" size="1.000000 0.562500" />
+    <ImageTarget name="mcbryde-5" size="1.000000 0.562500" />
+    <ImageTarget name="holden-8" size="1.000000 0.562500" />
+    <ImageTarget name="holden-7" size="1.000000 0.562500" />
+    <ImageTarget name="torgersen-12" size="1.000000 0.562500" />
+    <ImageTarget name="torgersen-11" size="1.000000 0.562500" />
+    <ImageTarget name="torgersen-10" size="1.000000 0.562500" />
+    <ImageTarget name="torgersen-9" size="1.000000 0.562500" />
+    <ImageTarget name="torgersen-8" size="1.000000 0.562500" />
+    <ImageTarget name="torgersen-7" size="1.000000 0.562500" />
+    <ImageTarget name="torgersen-6" size="1.000000 0.562500" />
+    <ImageTarget name="torgersen-5" size="1.000000 0.562500" />
+    <ImageTarget name="torgersen-4" size="1.000000 0.562500" />
+    <ImageTarget name="torgersen-3" size="1.000000 0.562500" />
+    <ImageTarget name="torgersen-2" size="1.000000 0.562500" />
+    <ImageTarget name="torgersen-1" size="1.000000 0.562500" />
+    <ImageTarget name="torgersen-0" size="1.000000 0.562500" />
+    <ImageTarget name="holden-6" size="1.000000 0.562500" />
+    <ImageTarget name="holden-5" size="1.000000 0.562500" />
+    <ImageTarget name="holden-4" size="1.000000 0.562500" />
+    <ImageTarget name="holden-3" size="1.000000 0.562500" />
+    <ImageTarget name="holden-2" size="1.000000 0.562500" />
+    <ImageTarget name="holden-1" size="1.000000 0.562500" />
+    <ImageTarget name="holden-0" size="1.000000 0.562500" />
+    <ImageTarget name="mcbryde-4" size="1.000000 0.562500" />
+    <ImageTarget name="mcbryde-3" size="1.000000 0.562500" />
+    <ImageTarget name="mcbryde-2" size="1.000000 0.562500" />
+    <ImageTarget name="mcbryde-1" size="1.000000 0.562500" />
+    <ImageTarget name="mcbryde-0" size="1.000000 0.562500" />
+    <ImageTarget name="patton-13" size="1.000000 0.562500" />
+    <ImageTarget name="patton-12" size="1.000000 0.562500" />
+    <ImageTarget name="patton-11" size="1.000000 0.562500" />
+    <ImageTarget name="patton-10" size="1.000000 0.562500" />
+    <ImageTarget name="patton-9" size="1.000000 0.562500" />
+    <ImageTarget name="patton-8" size="1.000000 0.562500" />
+    <ImageTarget name="patton-7" size="1.000000 0.562500" />
+    <ImageTarget name="patton-6" size="1.000000 0.562500" />
+    <ImageTarget name="patton-4" size="1.000000 0.562500" />
+    <ImageTarget name="patton-3" size="1.000000 0.562500" />
+    <ImageTarget name="patton-2" size="1.000000 0.562500" />
+    <ImageTarget name="patton-1" size="1.000000 0.562500" />
+    <ImageTarget name="patton-0" size="1.000000 0.562500" />
+  </Tracking>
+</QCARConfig>

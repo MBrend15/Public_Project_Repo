@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="newman_12" size="1.000000 0.562500" />
+    <ImageTarget name="newman_10" size="1.000000 0.562500" />
+    <ImageTarget name="newman_11" size="1.000000 0.562500" />
+    <ImageTarget name="Torg_Bridge" size="1.000000 0.562500" />
+    <ImageTarget name="Torg_5" size="1.000000 0.562500" />
+    <ImageTarget name="Torg_4" size="1000.000000 562.500000" />
+    <ImageTarget name="Torg_3" size="1000.000000 562.500000" />
+    <ImageTarget name="Torg_2" size="1000.000000 562.500000" />
+    <ImageTarget name="Torg_0" size="1000.000000 562.500000" />
+    <ImageTarget name="newman-7-min" size="1000.000000 1000.334534" />
+    <ImageTarget name="newman-5-min" size="1000.000000 675.432739" />
+    <ImageTarget name="newman-3-min" size="1000.000000 681.723267" />
+    <ImageTarget name="newman-1-min" size="1000.000000 1071.285156" />
+  </Tracking>
+</QCARConfig>

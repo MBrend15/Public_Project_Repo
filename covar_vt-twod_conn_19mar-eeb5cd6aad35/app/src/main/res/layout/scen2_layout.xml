@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/map2"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="425dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbl_scen2PID"
+        android:text="Participant ID:"
+        android:layout_marginTop="10dip"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/map2"
+        android:layout_marginLeft="5dip"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_scen2PID"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/lbl_scen2PID"
+        android:layout_marginTop="3dip"
+        android:layout_marginLeft="5dip"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/but_scen2Start"
+        android:layout_below="@+id/txt_scen2PID"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="1dip"
+        android:text="Start Task!"
+        android:onClick="scen2Start_click"
+        style="@style/Widget.AppCompat.Button.Small" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/but_safe"
+        android:text="Safe"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="1dip"
+        android:onClick="safe_click"
+        style="@style/Widget.AppCompat.Button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/but_rogue"
+        android:text="Rogue"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dip"
+        android:layout_alignTop="@+id/but_safe"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dip"
+        android:onClick="rogue_click"
+        style="@style/Widget.AppCompat.Button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/but_scen2End"
+        android:layout_below="@+id/but_rogue"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="1dip"
+        android:text="Finish"
+        android:onClick="finish_click"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>

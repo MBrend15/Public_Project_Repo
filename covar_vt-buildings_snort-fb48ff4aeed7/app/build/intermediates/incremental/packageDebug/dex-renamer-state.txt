@@ -1,0 +1,7 @@
+#Wed Feb 15 07:51:01 EST 2017
+base.0=C\:\\Users\\bcmattina\\Documents\\buildings_snort\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_caf5fa1cb53f5feb3b371ea02bc39dae92f52caf
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\bcmattina\\Documents\\buildings_snort\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_2fd36ea9655a418cd031520e682208e72b267165\\classes.dex
+base.1=C\:\\Users\\bcmattina\\Documents\\buildings_snort\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_2fd36ea9655a418cd031520e682208e72b267165
+file.0=C\:\\Users\\bcmattina\\Documents\\buildings_snort\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_caf5fa1cb53f5feb3b371ea02bc39dae92f52caf\\classes.dex
