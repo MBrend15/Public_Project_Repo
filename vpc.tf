@@ -45,9 +45,9 @@ resource "aws_internet_gateway" "sapient_igw" {
 }
 
 resource "aws_route" "sapient_igw_r" {
-  route_table_id              = aws_route_table.serverless_integration_igw_rt.id
+  route_table_id         = aws_route_table.serverless_integration_igw_rt.id
   destination_cidr_block = "0.0.0.0/0"
-  gateway_id = aws_internet_gateway.sapient_igw.id
+  gateway_id             = aws_internet_gateway.sapient_igw.id
 }
 
 resource "aws_security_group" "allow_tls" {
