@@ -4,6 +4,8 @@
 # For the infrastructure piece, the setup requirements include.
 # terraform + aws credentials in ~/.aws/credentials
 
+# Getting terraform: https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli#install-terraform
+
 # For jupyter notebooks, we leverage git
 # That setup includes adding git public ssh key in your git profile within the jupyter terminal
 
