@@ -14,7 +14,7 @@ vi ~/.ssh/config
 ```
 
 ```
-vi ~/.ssh/id_rsa.pub
+vi ~/.ssh/id_rsa
 ```
 
 ###  you will also need to update file and directory permissions. This might look like:
