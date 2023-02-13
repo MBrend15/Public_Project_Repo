@@ -1,3 +1,5 @@
 venv
 data
 .terraform
+.ipynb_checkpoints
+spark-warehouse
