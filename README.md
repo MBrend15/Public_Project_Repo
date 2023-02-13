@@ -9,12 +9,19 @@
 ###  For jupyter notebooks, we leverage git
 ###  That setup includes adding git public ssh key in your git profile within the jupyter terminal
 
+```
+vi ~/.ssh/config
+```
+
+```
+vi ~/.ssh/id_rsa.pub
+```
+
 ###  you will also need to update file and directory permissions. This might look like:
 
 ```
-chmod 400 ~/.ssh/id_rsa.pub
+chmod 400 ~/.ssh/*
 chmod 700 ~/.ssh
-chmod 600 ~/.ssh/*
 ```
 
 
@@ -29,7 +36,7 @@ chmod 600 ~/.ssh/*
 #### Using aws cli
 #### Example:
 ```
-aws s3 cp ~/Downloads/AIA-151-175.ecar-2019-12-08T16-55-16.971.json s3://sapient-bucket-raw/dev
+aws s3 cp ~/Downloads/bro s3://sapient-bucket-raw/prod/bro --recursive
 ```
 
 
