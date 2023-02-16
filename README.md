@@ -40,14 +40,26 @@ aws s3 cp ~/Downloads/bro s3://sapient-bucket-raw/prod/bro --recursive
 ```
 
 
-### Labels for the malicious data
+
 ### Reading the data
 #### bro/date/file
 #### ecar/benign/date/file
 #### ecar-bro/benign/date/file
 #### Reading log data
 ### Filtering the data
+process, flow, file, shell
+
+### Labels for the malicious data
+
 #### 29 computers were attacked
 #### attacked occurred on 3 days
 ### Joining the data
 (bro) uid + (ecar_bro) bro_uid + (ecar) id
+
+
+Provenance Graphs (DAG)
+Model Type - Bayesian Neural Network
+Generative AI for DAG - Generative adverserial network
+Pagerank?
+
+
