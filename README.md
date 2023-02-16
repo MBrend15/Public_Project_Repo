@@ -24,22 +24,23 @@ chmod 400 ~/.ssh/*
 chmod 700 ~/.ssh
 ```
 
-
 ### Other code on Darpa dataset:
 ### https://github.com/SparkyAndy/XCS229ii-FinalProject/blob/main/ClassifyingComputerProcessesDarpaOpTCBaselineModel.ipynb
 
 ### Transferring large files to S3. 
 #### Downloading the data:
-#### Honestly think we just need to download them individually
-#### Loading the data to S3
-#### Using the UI - this can fail multiple times even for a single file 
-#### Using aws cli
+#### This is done in two ways:
+#### 1. Manually through the google drive
+#### run update gdrive_download.py file with sharing link for url's from folders in google drive
+#### 2. If that fails from limits, you can manually download through the google drive
+#### This can fail multiple times even for a single file. Take note. Those that fail can be manually downloaded after. 
+
+### Once you have the files downloaded, you'll want to upload them to S3. You can using aws cli. 
+#### 1. Notice bro is moving to bro. This maintains the file structure. 
 #### Example:
 ```
 aws s3 cp ~/Downloads/bro s3://sapient-bucket-raw/prod/bro --recursive
 ```
-
-
 
 ### Reading the data
 #### bro/date/file
