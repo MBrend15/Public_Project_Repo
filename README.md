@@ -39,7 +39,7 @@ chmod 700 ~/.ssh
 #### 1. Notice bro is moving to bro. This maintains the file structure. 
 #### Example:
 ```
-aws s3 cp ~/Downloads/bro s3://sapient-bucket-raw/prod/bro --recursive
+aws s3 cp /home/ec2-user/SageMaker/ecar/evaluation s3://sapient-bucket-raw/prod/ecar/evaluation --recursive
 ```
 
 ### Reading the data
@@ -48,7 +48,12 @@ aws s3 cp ~/Downloads/bro s3://sapient-bucket-raw/prod/bro --recursive
 #### ecar-bro/benign/date/file
 #### Reading log data
 ### Filtering the data
-process, flow, file, shell
+all events filtered to -> process, flow, file, shell
+
+icmp ping messages (maybe just ICMP protocol)
+bi-directional flow messages 
+tcp three way -> for filtering, how many services are there in bro connections, might be able to filter out when proto and service are both tcp 
+
 
 ### Labels for the malicious data
 
@@ -59,6 +64,7 @@ process, flow, file, shell
 
 
 Provenance Graphs (DAG)
+Event poison distribution
 Model Type - Bayesian Neural Network
 Generative AI for DAG - Generative adverserial network
 Pagerank?
