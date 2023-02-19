@@ -175,3 +175,10 @@ file upload complete
 --- 122.67561316490173 seconds ---
 There are 213 files remaining to convert
 /home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/18-19Sep19/AIA-151-175/AIA-151-175.ecar-2019-12-07T11-58-35.920.json
+file upload complete
+--- 167.44281125068665 seconds ---
+There are 213 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/18-19Sep19/AIA-151-175/AIA-151-175.ecar-last.json
+file upload complete
+--- 375.850177526474 seconds ---
+There are 213 files remaining to convert
