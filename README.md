@@ -8,7 +8,7 @@ For jupyter notebooks, we leverage git
 That setup includes adding git public ssh key in your git profile within the jupyter terminal.
 
 
-#### Git credentials
+### Git credentials
 You may only need the private key. In case you want to specify it by a different name than id_rsa, you can also add a config file. 
 Setting up keys: [Github ssh keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 ```
@@ -24,10 +24,7 @@ chmod 400 ~/.ssh/*
 chmod 700 ~/.ssh
 ```
 
-
-### Other code on Darpa dataset: [External Project](https://github.com/SparkyAndy/XCS229ii-FinalProject/blob/main/ClassifyingComputerProcessesDarpaOpTCBaselineModel.ipynb)
-
-#### Downloading the data:
+### Downloading the data:
 
 This is done in two ways:
 1. Manually through the google drive
@@ -42,27 +39,27 @@ Example:
 aws s3 cp /home/ec2-user/SageMaker/ecar/evaluation/24Sep19 s3://sapient-bucket-raw/pre_prod/ecar/evaluation --recursive
 ```
 
-#### Expansion of the files
+### Expansion of the files
 This was done by download each file from S3 and expanding it, then pushing it back to S3. You can run this command to complete this. 
 This command allows the expansion to run as a process in the background log to file. You can view the file to see if any files failed and locate which.
 ```
 nohup python -u expand_files.py > expand_files.log &
 ```
 
-#### Processing the data
+### Processing the data
 all events filtered to -> process, flow, file, shell
 
 icmp ping messages (maybe just ICMP protocol)
 bi-directional flow messages 
 tcp three way -> for filtering, how many services are there in bro connections, might be able to filter out when proto and service are both tcp 
 
-#### Labels for the malicious data
+### Labels for the malicious data
 A prior project that using the Darpa OpTC dataset contains labeled malicious data: [Darpa project](https://github.com/SparkyAndy/XCS229ii-FinalProject)
 
 (bro) uid + (ecar_bro) bro_uid + (ecar) id
 
 
-#### Proposed methods of analysis
+### Proposed methods of analysis
 - Provenance Graphs (DAG)
 - Event poison distribution
 - Model Type - Bayesian Neural Network
