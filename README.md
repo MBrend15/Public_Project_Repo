@@ -31,8 +31,7 @@ chmod 700 ~/.ssh
 ```
 
 
-### Other code on Darpa dataset:
-### https://github.com/SparkyAndy/XCS229ii-FinalProject/blob/main/ClassifyingComputerProcessesDarpaOpTCBaselineModel.ipynb
+### Other code on Darpa dataset: [External Project](https://github.com/SparkyAndy/XCS229ii-FinalProject/blob/main/ClassifyingComputerProcessesDarpaOpTCBaselineModel.ipynb)
 
 #### Downloading the data:
 <p>
