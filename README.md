@@ -1,14 +1,20 @@
-### This provides the infrastructure and the notebooks including eda and models for the sapient project
-###  which models Advanced Persistent Threats (ATPs)
+<p>
+This provides the infrastructure and the notebooks including eda and models for the sapient project 
+which models Advanced Persistent Threats (ATPs)
+For the infrastructure piece, the setup requirements include.
+terraform + aws credentials in ~/.aws/credentials
+Getting terraform: [Terraform installation](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli#install-terraform)
 
-###  For the infrastructure piece, the setup requirements include.
-###  terraform + aws credentials in ~/.aws/credentials
+For jupyter notebooks, we leverage git
+That setup includes adding git public ssh key in your git profile within the jupyter terminal.
+</p>
 
-###  Getting terraform: https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli#install-terraform
 
-###  For jupyter notebooks, we leverage git
-###  That setup includes adding git public ssh key in your git profile within the jupyter terminal
-
+#### Git credentials
+<p>
+You may only need the private key. In case you want to specify it by a different name than id_rsa, you can also add a config file. 
+Setting up keys: [Github ssh keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+</p>
 ```
 vi ~/.ssh/config
 ```
@@ -16,57 +22,71 @@ vi ~/.ssh/config
 ```
 vi ~/.ssh/id_rsa
 ```
-
-###  you will also need to update file and directory permissions. This might look like:
-
+<p>
+You will also need to update file and directory permissions. This might look like:
+</p>
 ```
 chmod 400 ~/.ssh/*
 chmod 700 ~/.ssh
 ```
 
+
 ### Other code on Darpa dataset:
 ### https://github.com/SparkyAndy/XCS229ii-FinalProject/blob/main/ClassifyingComputerProcessesDarpaOpTCBaselineModel.ipynb
 
-### Transferring large files to S3. 
 #### Downloading the data:
-#### This is done in two ways:
-#### 1. Manually through the google drive
-#### run update gdrive_download.py file with sharing link for url's from folders in google drive
-#### 2. If that fails from limits, you can manually download through the google drive
-#### This can fail multiple times even for a single file. Take note. Those that fail can be manually downloaded after. 
+<p>
+This is done in two ways:
+1. Manually through the google drive
+2. run `gdrive_download.py`
+If (when) that fails from limits, update the link list to continue. Bro and Ecar-bro will can be downloaded completely. 
+Ecar will need to be split into smaller parts
+Once you have the files downloaded, you'll want to upload them to S3. You can using aws cli. 
+Notice bro is moving to bro. This maintains the file structure. 
+Example:
+</p>
 
-### Once you have the files downloaded, you'll want to upload them to S3. You can using aws cli. 
-#### 1. Notice bro is moving to bro. This maintains the file structure. 
-#### Example:
 ```
-aws s3 cp /home/ec2-user/SageMaker/ecar/evaluation s3://sapient-bucket-raw/prod/ecar/evaluation --recursive
+aws s3 cp /home/ec2-user/SageMaker/ecar/evaluation/24Sep19 s3://sapient-bucket-raw/pre_prod/ecar/evaluation --recursive
 ```
 
-### Reading the data
-#### bro/date/file
-#### ecar/benign/date/file
-#### ecar-bro/benign/date/file
-#### Reading log data
-### Filtering the data
+#### Expansion of the files
+<p>
+#### This was done by download each file from S3 and expanding it, then pushing it back to S3. You can run this command to complete this. 
+This command allows the expansion to run as a process in the background log to file. You can view the file to see if any files failed and locate which.
+</p>
+```
+nohup python -u expand_files.py > expand_files.log &
+```
+
+#### Processing the data
+<p>
 all events filtered to -> process, flow, file, shell
 
 icmp ping messages (maybe just ICMP protocol)
 bi-directional flow messages 
 tcp three way -> for filtering, how many services are there in bro connections, might be able to filter out when proto and service are both tcp 
+</p>
+
+#### Labels for the malicious data
+<p>
+A prior project that using the Darpa OpTC dataset contains labeled malicious data: [Darpa project](https://github.com/SparkyAndy/XCS229ii-FinalProject)
+</p>
 
 
-### Labels for the malicious data
-
-#### 29 computers were attacked
-#### attacked occurred on 3 days
-### Joining the data
+<p>
 (bro) uid + (ecar_bro) bro_uid + (ecar) id
+</p>
 
+#### Proposed methods of analysis
+<p>
+- Provenance Graphs (DAG)
+- Event poison distribution
+- Model Type - Bayesian Neural Network
+- Generative AI for DAG, Generative adverserial network
+- Pagerank as a feature
+- Few Shot AI to use a little data
+- Visualization of Attack in Network in Tableau as Report
 
-Provenance Graphs (DAG)
-Event poison distribution
-Model Type - Bayesian Neural Network
-Generative AI for DAG - Generative adverserial network
-Pagerank?
-
+</p>
 

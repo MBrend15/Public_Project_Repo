@@ -7,6 +7,22 @@ import gdown
 # https://drive.google.com/drive/folders/16jlNFJk8tWIyjGhd9aDV6hsv5qEafwXe?usp=share_link
 
 drive_paths = {
+
+'24Sep19/AIA-401-425':
+'https://drive.google.com/drive/folders/1DDWYCVC7tUvnDhmNWQnhqCX9yFNpgcxi',
+    
+'24Sep19/AIA-451-475':
+'https://drive.google.com/drive/folders/1xluCPf0VvS6lyOg0Zc1cQKOIA9ui6KIh',
+
+'24Sep19/AIA-501-525':
+'https://drive.google.com/drive/folders/1FEx6FMXf3BrVgrmiaQNeObtKAJF3VElY',
+    
+'24Sep19/AIA-551-575':
+'https://drive.google.com/drive/folders/1Pdlo8GlCmPqo_aIUgZFKW9Bxyd4KhGwA',
+
+'24Sep19/AIA-601-625':
+'https://drive.google.com/drive/folders/16jlNFJk8tWIyjGhd9aDV6hsv5qEafwXe',
+
 '24Sep19/AIA-651-675':
 'https://drive.google.com/drive/folders/1-nm2lE7t4kvAbjhTfdE9dXWNgQ81vZNX',
  
@@ -30,11 +46,18 @@ drive_paths = {
     
 }
 
+drive_paths = {
+
+'18-19Sep19/AIA-451-475':
+'https://drive.google.com/drive/folders/19WCVOZrpCYRczg4D4XygWXrJeFl7k0V2',
+}
+    
+
 # 25Sep
 # https://drive.google.com/drive/folders/1SltTXt8r9jkuTQEW725Tcp9xUUJVbCTn
 
-for file_path,url in drive_paths.items():
+for file_path, url in drive_paths.items():
     # file_path = '24Sep19/AIA-651-675'
     # url = "https://drive.google.com/drive/folders/1-nm2lE7t4kvAbjhTfdE9dXWNgQ81vZNX"
-    output = f"/home/ec2-user/SageMaker/ecar/evaluation/{file_path}"
+    output = f"/home/ec2-user/SageMaker/ecar/benign/{file_path}"
     gdown.download_folder(url=url, quiet=False, use_cookies=False)
