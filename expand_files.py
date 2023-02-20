@@ -49,8 +49,6 @@ def get_matching_s3_objects(bucket, prefix="", suffix=""):
             if key.endswith(suffix):
                 count += 1
                 files_list.append(key)
-    print(f"count of total objects is {count}.")
-    print(f"guesstimated time is " + str(round(178*count/60/60, 0)) + " hours.")
     return count, files_list
 
 
@@ -82,10 +80,10 @@ def expand_json_gz(bucket, key):
                                 Key= 'prod/'+ key_exp.lstrip(file_pre),
                                 Config=config
         )
-                print("file upload complete")
+                print(time.strftime('%l:%M%p %Z on %b %d, %Y') + " -- file upload complete")
             except Exception as e:
                 print(e)
-                print("failed file: " + file_pre)
+                print(time.strftime('%l:%M%p %Z on %b %d, %Y') + " -- failed file: " + file_pre)
                 pass
     try: 
         os.remove(tmp_loc)
@@ -102,21 +100,28 @@ if __name__ == "__main__":
     # key = 'pre_prod/bro/2019-09-18/communication.07_00_00-08_00_00.log.gz'  # input for your key on S3 (means S3 object fullpath)
     # actual = expand_json_gz(bucketname, key)
     
-    print("start time at" + time.strftime('%l:%M%p %Z on %b %d, %Y'))
+    print(time.strftime('%l:%M%p %Z on %b %d, %Y') + " -- process start time")
     # ignore completed files previously logged
-    infile = r"/home/ec2-user/SageMaker/sapient/expand_files.log"
-    fs = ".json"
+    infiles = [r"/home/ec2-user/SageMaker/sapient/expand_files.log", r"/home/ec2-user/SageMaker/sapient/expand_files.log1" ]
+    corpus = []
 
-    with open(infile) as f:
-        f = f.readlines()
+    for infile in infiles:
+        with open(infile) as f:
+            f = f.readlines()
+        corpus = corpus + f
 
-    completed = [x.replace("/home/ec2-user/SageMaker/tmp/", "").replace("\n", "") for x in f if ".json" in x]
+    corpus = [*set(corpus)]
+    completed = [x.replace("/home/ec2-user/SageMaker/tmp/", "").replace("\n", "") for x in corpus if ".json" in x]
+    
     start_time = time.time()
     s3_count, s3_files = get_matching_s3_objects(bucket = bucket, prefix = file_pre + "ecar/", suffix="gz")
+    s3_count = s3_count - len(completed)
+    print(f"count of total objects is {s3_count}.")
+    print(f"estimated time is " + str(round(5*s3_count/60/60, 0)) + " hours.")
     for f in s3_files:
         if f.replace(".gz", "") not in completed:
             print(f)
-            s3_count -= 1
         expand_json_gz(bucket, f)
-        print("There are " + str(s3_count) + " files remaining to convert")
-    print("total time was  --- %s seconds ---" % (time.time() - start_time))
+        s3_count -= 1
+        print(time.strftime('%l:%M%p %Z on %b %d, %Y') + " -- There are " + str(s3_count) + " files remaining to convert")
+    print(time.strftime('%l:%M%p %Z on %b %d, %Y') + " -- total time was  --- %s seconds ---" % (time.time() - start_time))
