@@ -51,13 +51,41 @@ drive_paths = {
 '18-19Sep19/AIA-451-475':
 'https://drive.google.com/drive/folders/19WCVOZrpCYRczg4D4XygWXrJeFl7k0V2',
 }
+
+drive_paths = {
+
+'/evaluation/23Sep-night/AIA-901-925':
+'https://drive.google.com/drive/folders/1RTIn6MuxZbKj9GooRBMxUJVhaLm1W1pH',
+    
+'/evaluation/23Sep-night/AIA-951-975':
+'https://drive.google.com/drive/folders/1XSEw4uRoY_TsnqGFcCTK_c-WS3l_GJsf',
+
+'/evaluation/23Sep-red/AIA-1-25':
+'https://drive.google.com/drive/folders/1mq5IjFRBiRSOMt6WEq3PM-f4Wo4r6vRI',
+    
+'/evaluation/23Sep-red/AIA-201-225':
+'https://drive.google.com/drive/folders/15nia2-dLBVw1ieLHz-JMKXCXvO226Ktx',
+
+'/evaluation/23Sep-red/AIA-1-25':
+'https://drive.google.com/drive/folders/1mq5IjFRBiRSOMt6WEq3PM-f4Wo4r6vRI',
+    
+'/evaluation/23Sep-red/AIA-601-625':
+'https://drive.google.com/drive/folders/1ORJKFNJXSkmk_BZWT1Vm-fESRR4OmZEU',
+    
+'/evaluation/23Sep-red/AIA-651-675':
+'https://drive.google.com/drive/folders/1c8fgDC2h86SCFv00i6QezKpjSKYiqAsL',
+    
+'/evaluation/23Sep-red/AIA-901-925':
+'https://drive.google.com/drive/folders/189dxcc1rHS6sqF_z9IrAP2hd-73v5k2q',
+    
+}
+
+# Missing many from benign/18-19Sep19/, evaluation/23Sep-red, benign/19Sep19, benign/20-23Sep19
     
 
-# 25Sep
-# https://drive.google.com/drive/folders/1SltTXt8r9jkuTQEW725Tcp9xUUJVbCTn
 
 for file_path, url in drive_paths.items():
     # file_path = '24Sep19/AIA-651-675'
     # url = "https://drive.google.com/drive/folders/1-nm2lE7t4kvAbjhTfdE9dXWNgQ81vZNX"
-    output = f"/home/ec2-user/SageMaker/ecar/benign/{file_path}"
-    gdown.download_folder(url=url, quiet=False, use_cookies=False)
+    output = f"/home/ec2-user/SageMaker/ecar/{file_path}"
+    gdown.download_folder(url=url, output=output, quiet=False, use_cookies=False)

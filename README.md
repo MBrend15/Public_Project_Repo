@@ -32,7 +32,7 @@ If (when) that fails from limits, update the link list to continue. Provided you
 Example (Notice bro is moving to bro. This maintains the file structure.):
 
 ```
-aws s3 cp /home/ec2-user/SageMaker/ecar/evaluation/24Sep19 s3://sapient-bucket-raw/pre_prod/ecar/evaluation --recursive
+aws s3 sync /home/ec2-user/SageMaker/ecar/ s3://sapient-bucket-raw/pre_prod/ecar/
 ```
 
 ### Expansion of the files
