@@ -1,0 +1,175 @@
+start time at 7:25AM UTC on Feb 19, 2023
+count of total objects is 213.
+guesstimated time is 11.0 hours.
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-101-125/AIA-101-125.ecar-2019-12-07T02-20-06.258.json
+--- 418.47671818733215 seconds ---
+There are 212 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-101-125/AIA-101-125.ecar-last.json
+--- 371.12108421325684 seconds ---
+There are 211 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-151-175/AIA-151-175.ecar-2019-12-07T03-08-28.178.json
+--- 394.36120653152466 seconds ---
+There are 210 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-151-175/AIA-151-175.ecar-2019-12-07T07-14-17.002.json
+--- 393.67454981803894 seconds ---
+There are 209 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-151-175/AIA-151-175.ecar-last.json
+--- 219.11606812477112 seconds ---
+There are 208 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-201-225/AIA-201-225.ecar-2019-12-07T01-57-49.366.json
+--- 397.91591215133667 seconds ---
+There are 207 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-201-225/AIA-201-225.ecar-2019-12-07T06-00-00.251.json
+--- 392.828293800354 seconds ---
+There are 206 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-201-225/AIA-201-225.ecar-last.json
+--- 220.78869652748108 seconds ---
+There are 205 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-251-275/AIA-251-275.ecar-2019-11-14T04-53-29.913.json
+--- 397.06464552879333 seconds ---
+There are 204 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-251-275/AIA-251-275.ecar-2019-11-14T09-23-46.063.json
+--- 397.73961758613586 seconds ---
+There are 203 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-251-275/AIA-251-275.ecar-last.json
+--- 377.43681716918945 seconds ---
+There are 202 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-276-300/AIA-276-300.ecar-2019-11-14T05-06-51.745.json
+--- 393.44301199913025 seconds ---
+There are 201 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-276-300/AIA-276-300.ecar-2019-11-14T09-41-54.267.json
+--- 396.15433621406555 seconds ---
+There are 200 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-276-300/AIA-276-300.ecar-last.json
+--- 362.1252872943878 seconds ---
+There are 199 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-301-325/AIA-301-325.ecar-2019-11-14T04-37-46.774.json
+--- 393.8928556442261 seconds ---
+There are 198 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-301-325/AIA-301-325.ecar-2019-11-14T08-58-42.682.json
+--- 395.4176619052887 seconds ---
+There are 197 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-301-325/AIA-301-325.ecar-last.json
+--- 242.70078945159912 seconds ---
+There are 196 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-326-350/AIA-326-350.ecar-2019-11-14T04-32-10.723.json
+--- 394.8625953197479 seconds ---
+There are 195 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-326-350/AIA-326-350.ecar-2019-11-14T08-52-55.093.json
+--- 394.5297679901123 seconds ---
+There are 194 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-326-350/AIA-326-350.ecar-last.json
+--- 244.41795182228088 seconds ---
+There are 193 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-351-375/AIA-351-375.ecar-2019-11-14T04-46-00.161.json
+--- 394.0400478839874 seconds ---
+There are 192 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-351-375/AIA-351-375.ecar-2019-11-14T08-31-23.760.json
+--- 395.6861398220062 seconds ---
+There are 191 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-351-375/AIA-351-375.ecar-last.json
+--- 168.55870580673218 seconds ---
+There are 190 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-376-400/AIA-376-400.ecar-2019-11-14T03-44-44.049.json
+--- 396.72323846817017 seconds ---
+There are 189 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-376-400/AIA-376-400.ecar-2019-11-14T07-24-51.025.json
+--- 395.5908043384552 seconds ---
+There are 188 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-376-400/AIA-376-400.ecar-last.json
+--- 42.87781238555908 seconds ---
+There are 187 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-401-425/AIA-401-425.ecar-2019-11-14T04-57-33.351.json
+--- 394.8118817806244 seconds ---
+There are 186 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-401-425/AIA-401-425.ecar-2019-11-14T09-11-52.388.json
+--- 396.7838852405548 seconds ---
+There are 185 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-401-425/AIA-401-425.ecar-last.json
+--- 243.97490167617798 seconds ---
+There are 184 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-426-450/AIA-426-450.ecar-2019-11-14T05-11-32.774.json
+--- 401.5329782962799 seconds ---
+There are 183 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-426-450/AIA-426-450.ecar-2019-11-14T09-17-55.474.json
+--- 399.30289125442505 seconds ---
+There are 182 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-426-450/AIA-426-450.ecar-last.json
+--- 157.31428575515747 seconds ---
+There are 181 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-451-475/AIA-451-475.ecar-2019-11-14T05-09-52.999.json
+--- 395.88412976264954 seconds ---
+There are 180 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-451-475/AIA-451-475.ecar-2019-11-14T09-36-12.466.json
+--- 398.16039991378784 seconds ---
+There are 179 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-451-475/AIA-451-475.ecar-last.json
+--- 228.13188815116882 seconds ---
+There are 178 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-476-500/AIA-476-500.ecar-2019-11-14T04-08-00.855.json
+--- 393.46511816978455 seconds ---
+There are 177 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-476-500/AIA-476-500.ecar-2019-11-14T08-37-15.830.json
+--- 393.4851448535919 seconds ---
+There are 176 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-476-500/AIA-476-500.ecar-last.json
+--- 277.7043557167053 seconds ---
+There are 175 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-51-75/AIA-51-75.ecar-2019-12-07T02-25-57.487.json
+Compressed file ended before the end-of-stream marker was reached
+failed file: pre_prod/
+--- 322.6876826286316 seconds ---
+There are 174 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/17-18Sep19/AIA-51-75/AIA-51-75.ecar-last.json
+--- 381.35178327560425 seconds ---
+There are 173 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/18-19Sep19/AIA-101-125/AIA-101-125.ecar-2019-12-07T07-12-39.259.json
+--- 31.353806018829346 seconds ---
+There are 172 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/18-19Sep19/AIA-101-125/AIA-101-125.ecar-2019-12-07T11-26-37.718.json
+--- 397.89933490753174 seconds ---
+There are 171 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/18-19Sep19/AIA-101-125/AIA-101-125.ecar-last.json
+--- 120.64471530914307 seconds ---
+There are 170 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/18-19Sep19/AIA-151-175/AIA-151-175.ecar-2019-12-07T11-58-35.920.json
+--- 162.97210097312927 seconds ---
+There are 169 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/18-19Sep19/AIA-151-175/AIA-151-175.ecar-last.json
+--- 369.3145318031311 seconds ---
+There are 168 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/18-19Sep19/AIA-201-275/AIA-251-275.ecar-2019-12-07T01-59-02.707.json
+--- 396.2847318649292 seconds ---
+There are 167 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/18-19Sep19/AIA-201-275/AIA-251-275.ecar-last.json
+--- 120.90531635284424 seconds ---
+There are 166 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/18-19Sep19/AIA-301-325/AIA-301-325.ecar-2019-12-07T01-37-12.574.json
+--- 397.4749684333801 seconds ---
+There are 165 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/18-19Sep19/AIA-301-325/AIA-301-325.ecar-last.json
+--- 118.46220564842224 seconds ---
+There are 164 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/18-19Sep19/AIA-401-425/AIA-401-425.ecar-2019-12-07T01-16-29.473.json
+--- 397.7122256755829 seconds ---
+There are 163 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/18-19Sep19/AIA-401-425/AIA-401-425.ecar-last.json
+--- 132.77080464363098 seconds ---
+There are 162 files remaining to convert
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/benign/18-19Sep19/AIA-451-475/AIA-451-475.ecar-2019-12-07T01-28-46.139.json
+Traceback (most recent call last):
+  File "expand_files.py", line 110, in <module>
+    expand_json_gz(bucket, f)
+  File "expand_files.py", line 78, in expand_json_gz
+    shutil.copyfileobj(f_in, f_out)
+  File "/home/ec2-user/anaconda3/envs/JupyterSystemEnv/lib/python3.7/shutil.py", line 79, in copyfileobj
+    buf = fsrc.read(length)
+  File "/home/ec2-user/anaconda3/envs/JupyterSystemEnv/lib/python3.7/gzip.py", line 287, in read
+    return self._buffer.read(size)
+  File "/home/ec2-user/anaconda3/envs/JupyterSystemEnv/lib/python3.7/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+  File "/home/ec2-user/anaconda3/envs/JupyterSystemEnv/lib/python3.7/gzip.py", line 474, in read
+    if not self._read_gzip_header():
+  File "/home/ec2-user/anaconda3/envs/JupyterSystemEnv/lib/python3.7/gzip.py", line 422, in _read_gzip_header
+    raise OSError('Not a gzipped file (%r)' % magic)
+OSError: Not a gzipped file (b'<!')

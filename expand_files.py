@@ -49,7 +49,7 @@ def get_matching_s3_objects(bucket, prefix="", suffix=""):
             if key.endswith(suffix):
                 count += 1
                 files_list.append(key)
-    return count, files_list
+    return files_list
 
 
 # https://medium.com/analytics-vidhya/aws-s3-multipart-upload-download-using-boto3-python-sdk-2dedb0945f11
@@ -68,7 +68,7 @@ def expand_json_gz(bucket, key):
     # download gz file
     response = s3.meta.client.download_file(Bucket=bucket, Key=key, Filename=tmp_loc)
     exp_loc = tmp_loc.replace(".gz", "")
-    key_exp = key.lstrip(file_pre).replace(".gz", "")
+    key_exp = key.replace(file_pre, "").replace(".gz", "")
     print(exp_loc)
     with gzip.open(tmp_loc, 'r') as f_in: 
         with open(exp_loc, 'wb') as f_out:
@@ -102,8 +102,7 @@ if __name__ == "__main__":
     
     print(time.strftime('%l:%M%p %Z on %b %d, %Y') + " -- process start time")
     # ignore completed files previously logged
-    infiles = [r"/home/ec2-user/SageMaker/sapient/logs/expand_files.log", r"/home/ec2-user/SageMaker/sapient/logs/expand_files.log1",
-          r"/home/ec2-user/SageMaker/sapient/logs/expand_files.log2"]
+    infiles = ['logs/expand_files.log', 'logs/expand_files.log2', 'logs/expand_files.log3']
     corpus = []
     for infile in infiles:
         with open(infile) as f:
@@ -114,18 +113,19 @@ if __name__ == "__main__":
     completed = [x.replace("/home/ec2-user/SageMaker/tmp/", "").replace("\n", "") for x in corpus if ".json" in x]
     
     start_time = time.time()
-    s3_count, s3_files = get_matching_s3_objects(bucket = bucket, prefix = file_pre + "ecar/", suffix="gz")
+    s3_files = get_matching_s3_objects(bucket = bucket, suffix="gz")
     s3_files = [x.replace(".gz", "") for x in s3_files]
     common = set(completed) & set(s3_files)
     completed = [i for i in completed if i not in common]
     s3_files = [i for i in s3_files if i not in common]
-    print("remaining file count: ", len(s3_files))
+    s3_count = len(s3_files)
+    print("remaining file count: ", s3_count)
     # add .gz back to remaining filenames
     s3_files = [s + '.gz' for s in s3_files]
     print(s3_files)
-    print(f"estimated time is " + str(round(5*s3_count/60/60, 0)) + " hours.")
+    print(f"estimated time is " + str(round(5*s3_count/60, 0)) + " hours.")
     
-    if len(s3_files) > 0:
+    if s3_count > 0:
         for f in s3_files:
             print(f)
             expand_json_gz(bucket, f)

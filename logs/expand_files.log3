@@ -1,0 +1,1190 @@
+ 1:33AM UTC on Feb 22, 2023 -- process start time
+remaining file count:  237
+['pre_prod/bro/2019-09-14/files.00_00_00-01_00_00.log.gz', 'pre_prod/bro/2019-09-14/http.00_00_00-01_00_00.log.gz', 'pre_prod/bro/2019-09-14/x509.01_00_00-02_00_00.log.gz', 'pre_prod/bro/2019-09-17/communication.00_00_00-01_00_00.log.gz', 'pre_prod/bro/2019-09-17/communication.01_00_00-02_00_00.log.gz', 'pre_prod/bro/2019-09-17/communication.02_00_00-03_00_00.log.gz', 'pre_prod/bro/2019-09-17/conn-summary.00_00_00-01_00_00.log.gz', 'pre_prod/bro/2019-09-17/conn-summary.01_00_00-02_00_00.log.gz', 'pre_prod/bro/2019-09-17/conn-summary.02_00_00-03_00_00.log.gz', 'pre_prod/bro/2019-09-17/dns.00_00_00-01_00_00.log.gz', 'pre_prod/bro/2019-09-17/dns.01_00_00-02_00_00.log.gz', 'pre_prod/bro/2019-09-17/dns.02_00_00-03_00_00.log.gz', 'pre_prod/bro/2019-09-17/nema_fileless.01_00_00-02_00_00.log.gz', 'pre_prod/bro/2019-09-17/nema_fileless.02_00_00-03_00_00.log.gz', 'pre_prod/bro/2019-09-17/reporter.00_00_00-01_00_00.log.gz', 'pre_prod/bro/2019-09-17/reporter.01_00_00-02_00_00.log.gz', 'pre_prod/bro/2019-09-17/reporter.02_00_00-03_00_00.log.gz', 'pre_prod/bro/2019-09-17/reporter.03_00_00-04_00_00.log.gz', 'pre_prod/bro/2019-09-17/smtp.00_00_00-01_00_00.log.gz', 'pre_prod/bro/2019-09-17/smtp.01_00_00-02_00_00.log.gz', 'pre_prod/bro/2019-09-17/smtp.02_00_00-03_00_00.log.gz', 'pre_prod/bro/2019-09-17/weird.00_00_00-01_00_00.log.gz', 'pre_prod/bro/2019-09-17/weird.01_00_00-02_00_00.log.gz', 'pre_prod/bro/2019-09-17/weird.02_00_00-03_00_00.log.gz', 'pre_prod/bro/2019-09-17/weird.03_00_00-04_00_00.log.gz', 'pre_prod/bro/2019-09-17/x509.00_00_00-01_00_00.log.gz', 'pre_prod/bro/2019-09-17/x509.01_00_00-02_00_00.log.gz', 'pre_prod/bro/2019-09-17/x509.02_00_00-03_00_00.log.gz', 'pre_prod/bro/2019-09-18/communication.02_00_00-03_00_00.log.gz', 'pre_prod/bro/2019-09-18/communication.03_00_00-04_00_00.log.gz', 'pre_prod/bro/2019-09-18/communication.04_00_00-05_00_00.log.gz', 'pre_prod/bro/2019-09-18/communication.05_00_00-06_00_00.log.gz', 'pre_prod/bro/2019-09-18/communication.06_00_00-07_00_00.log.gz', 'pre_prod/bro/2019-09-18/communication.07_00_00-08_00_00.log.gz', 'pre_prod/bro/2019-09-18/communication.08_00_00-09_00_00.log.gz', 'pre_prod/bro/2019-09-18/communication.09_00_00-10_00_00.log.gz', 'pre_prod/bro/2019-09-18/communication.10_00_00-11_00_00.log.gz', 'pre_prod/bro/2019-09-18/communication.16_00_00-17_00_00.log.gz', 'pre_prod/bro/2019-09-18/conn-summary.01_00_00-02_00_00.log.gz', 'pre_prod/bro/2019-09-18/conn-summary.02_00_00-03_00_00.log.gz', 'pre_prod/bro/2019-09-18/conn-summary.03_00_00-04_00_00.log.gz', 'pre_prod/bro/2019-09-18/conn-summary.04_00_00-05_00_00.log.gz', 'pre_prod/bro/2019-09-18/conn-summary.05_00_00-06_00_00.log.gz', 'pre_prod/bro/2019-09-18/conn-summary.06_00_00-07_00_00.log.gz', 'pre_prod/bro/2019-09-18/conn.12_00_00-13_00_00.log.gz', 'pre_prod/bro/2019-09-18/conn.13_00_00-14_00_00.log.gz', 'pre_prod/bro/2019-09-18/conn.14_00_00-15_00_00.log.gz', 'pre_prod/bro/2019-09-18/conn.15_00_00-16_00_00.log.gz', 'pre_prod/bro/2019-09-18/conn.17_00_00-18_00_00.log.gz', 'pre_prod/bro/2019-09-18/dns.02_00_00-03_00_00.log.gz', 'pre_prod/bro/2019-09-18/dns.03_00_00-04_00_00.log.gz', 'pre_prod/bro/2019-09-18/dns.04_00_00-05_00_00.log.gz', 'pre_prod/bro/2019-09-18/dns.05_00_00-06_00_00.log.gz', 'pre_prod/bro/2019-09-18/dns.06_00_00-07_00_00.log.gz', 'pre_prod/bro/2019-09-18/dns.07_00_00-08_00_00.log.gz', 'pre_prod/bro/2019-09-18/dns.08_00_00-09_00_00.log.gz', 'pre_prod/bro/2019-09-18/dns.09_00_00-10_00_00.log.gz', 'pre_prod/bro/2019-09-18/dns.10_00_00-11_00_00.log.gz', 'pre_prod/bro/2019-09-18/dns.12_00_00-13_00_00.log.gz', 'pre_prod/bro/2019-09-18/dns.15_00_00-16_00_00.log.gz', 'pre_prod/bro/2019-09-18/files.12_00_00-13_00_00.log.gz', 'pre_prod/bro/2019-09-18/files.13_00_00-14_00_00.log.gz', 'pre_prod/bro/2019-09-18/http.12_00_00-13_00_00.log.gz', 'pre_prod/bro/2019-09-18/http.13_00_00-14_00_00.log.gz', 'pre_prod/bro/2019-09-18/nema_fileless.02_00_00-03_00_00.log.gz', 'pre_prod/bro/2019-09-18/nema_fileless.03_00_00-04_00_00.log.gz', 'pre_prod/bro/2019-09-18/nema_fileless.04_00_00-05_00_00.log.gz', 'pre_prod/bro/2019-09-18/nema_fileless.05_00_00-06_00_00.log.gz', 'pre_prod/bro/2019-09-18/nema_fileless.06_00_00-07_00_00.log.gz', 'pre_prod/bro/2019-09-18/reporter.02_00_00-03_00_00.log.gz', 'pre_prod/bro/2019-09-18/reporter.03_00_00-04_00_00.log.gz', 'pre_prod/bro/2019-09-18/reporter.04_00_00-05_00_00.log.gz', 'pre_prod/bro/2019-09-18/reporter.05_00_00-06_00_00.log.gz', 'pre_prod/bro/2019-09-18/reporter.06_00_00-07_00_00.log.gz', 'pre_prod/bro/2019-09-18/reporter.07_00_00-08_00_00.log.gz', 'pre_prod/bro/2019-09-18/smtp.02_00_00-03_00_00.log.gz', 'pre_prod/bro/2019-09-18/smtp.04_00_00-05_00_00.log.gz', 'pre_prod/bro/2019-09-18/smtp.05_00_00-06_00_00.log.gz', 'pre_prod/bro/2019-09-18/smtp.06_00_00-07_00_00.log.gz', 'pre_prod/bro/2019-09-18/smtp.07_00_00-08_00_00.log.gz', 'pre_prod/bro/2019-09-18/smtp.08_00_00-09_00_00.log.gz', 'pre_prod/bro/2019-09-18/ssl.11_00_00-12_00_00.log.gz', 'pre_prod/bro/2019-09-18/ssl.12_00_00-13_00_00.log.gz', 'pre_prod/bro/2019-09-18/ssl.13_00_00-14_00_00.log.gz', 'pre_prod/bro/2019-09-18/ssl.14_00_00-15_00_00.log.gz', 'pre_prod/bro/2019-09-18/ssl.15_00_00-16_00_00.log.gz', 'pre_prod/bro/2019-09-18/ssl.17_00_00-18_00_00.log.gz', 'pre_prod/bro/2019-09-18/ssl.18_00_00-19_00_00.log.gz', 'pre_prod/bro/2019-09-18/ssl.19_00_00-20_00_00.log.gz', 'pre_prod/bro/2019-09-18/weird.02_00_00-03_00_00.log.gz', 'pre_prod/bro/2019-09-18/weird.03_00_00-04_00_00.log.gz', 'pre_prod/bro/2019-09-18/weird.04_00_00-05_00_00.log.gz', 'pre_prod/bro/2019-09-18/weird.05_00_00-06_00_00.log.gz', 'pre_prod/bro/2019-09-18/weird.06_00_00-07_00_00.log.gz', 'pre_prod/bro/2019-09-18/weird.07_00_00-08_00_00.log.gz', 'pre_prod/bro/2019-09-18/weird.08_00_00-09_00_00.log.gz', 'pre_prod/bro/2019-09-18/x509.02_00_00-03_00_00.log.gz', 'pre_prod/bro/2019-09-18/x509.03_00_00-04_00_00.log.gz', 'pre_prod/bro/2019-09-18/x509.04_00_00-05_00_00.log.gz', 'pre_prod/bro/2019-09-18/x509.05_00_00-06_00_00.log.gz', 'pre_prod/bro/2019-09-18/x509.06_00_00-07_00_00.log.gz', 'pre_prod/bro/2019-09-18/x509.07_00_00-08_00_00.log.gz', 'pre_prod/bro/2019-09-18/x509.08_00_00-09_00_00.log.gz', 'pre_prod/bro/2019-09-18/x509.09_00_00-10_00_00.log.gz', 'pre_prod/bro/2019-09-18/x509.10_00_00-11_00_00.log.gz', 'pre_prod/bro/2019-09-18/x509.11_00_00-12_00_00.log.gz', 'pre_prod/bro/2019-09-18/x509.12_00_00-13_00_00.log.gz', 'pre_prod/bro/2019-09-19/conn.04_00_00-05_00_00.log.gz', 'pre_prod/bro/2019-09-19/conn.05_00_00-06_00_00.log.gz', 'pre_prod/bro/2019-09-19/conn.06_00_00-07_00_00.log.gz', 'pre_prod/bro/2019-09-19/conn.07_00_00-08_00_00.log.gz', 'pre_prod/bro/2019-09-19/conn.08_00_00-09_00_00.log.gz', 'pre_prod/bro/2019-09-19/conn.09_00_00-10_00_00.log.gz', 'pre_prod/bro/2019-09-19/dns.05_00_00-06_00_00.log.gz', 'pre_prod/bro/2019-09-19/dns.06_00_00-07_00_00.log.gz', 'pre_prod/bro/2019-09-19/dns.07_00_00-08_00_00.log.gz', 'pre_prod/bro/2019-09-19/files.03_00_00-04_00_00.log.gz', 'pre_prod/bro/2019-09-19/files.04_00_00-05_00_00.log.gz', 'pre_prod/bro/2019-09-19/files.05_00_00-06_00_00.log.gz', 'pre_prod/bro/2019-09-19/files.06_00_00-07_00_00.log.gz', 'pre_prod/bro/2019-09-19/files.07_00_00-08_00_00.log.gz', 'pre_prod/bro/2019-09-19/files.08_00_00-09_00_00.log.gz', 'pre_prod/bro/2019-09-19/http.03_00_00-04_00_00.log.gz', 'pre_prod/bro/2019-09-19/http.04_00_00-05_00_00.log.gz', 'pre_prod/bro/2019-09-19/http.05_00_00-06_00_00.log.gz', 'pre_prod/bro/2019-09-19/http.06_00_00-07_00_00.log.gz', 'pre_prod/bro/2019-09-19/http.07_00_00-08_00_00.log.gz', 'pre_prod/bro/2019-09-19/http.08_00_00-09_00_00.log.gz', 'pre_prod/bro/2019-09-19/smtp.05_00_00-06_00_00.log.gz', 'pre_prod/bro/2019-09-19/smtp.06_00_00-07_00_00.log.gz', 'pre_prod/bro/2019-09-19/smtp.07_00_00-08_00_00.log.gz', 'pre_prod/bro/2019-09-19/ssl.03_00_00-04_00_00.log.gz', 'pre_prod/bro/2019-09-19/ssl.04_00_00-05_00_00.log.gz', 'pre_prod/bro/2019-09-19/ssl.05_00_00-06_00_00.log.gz', 'pre_prod/bro/2019-09-19/ssl.06_00_00-07_00_00.log.gz', 'pre_prod/bro/2019-09-19/ssl.07_00_00-08_00_00.log.gz', 'pre_prod/bro/2019-09-19/ssl.08_00_00-09_00_00.log.gz', 'pre_prod/bro/2019-09-19/x509.03_00_00-04_00_00.log.gz', 'pre_prod/bro/2019-09-19/x509.04_00_00-05_00_00.log.gz', 'pre_prod/bro/2019-09-19/x509.05_00_00-06_00_00.log.gz', 'pre_prod/bro/2019-09-19/x509.06_00_00-07_00_00.log.gz', 'pre_prod/bro/2019-09-19/x509.07_00_00-08_00_00.log.gz', 'pre_prod/bro/2019-09-20/communication.03_00_00-04_00_00.log.gz', 'pre_prod/bro/2019-09-20/conn.02_00_00-03_00_00.log.gz', 'pre_prod/bro/2019-09-20/conn.03_00_00-04_00_00.log.gz', 'pre_prod/bro/2019-09-20/conn.04_00_00-05_00_00.log.gz', 'pre_prod/bro/2019-09-20/conn.05_00_00-06_00_00.log.gz', 'pre_prod/bro/2019-09-20/conn.06_00_00-07_00_00.log.gz', 'pre_prod/bro/2019-09-20/dns.05_00_00-06_00_00.log.gz', 'pre_prod/bro/2019-09-20/files.03_00_00-04_00_00.log.gz', 'pre_prod/bro/2019-09-20/files.04_00_00-05_00_00.log.gz', 'pre_prod/bro/2019-09-20/files.05_00_00-06_00_00.log.gz', 'pre_prod/bro/2019-09-20/http.04_00_00-05_00_00.log.gz', 'pre_prod/bro/2019-09-20/smtp.04_00_00-05_00_00.log.gz', 'pre_prod/bro/2019-09-20/ssl.03_00_00-04_00_00.log.gz', 'pre_prod/bro/2019-09-20/ssl.04_00_00-05_00_00.log.gz', 'pre_prod/bro/2019-09-20/ssl.05_00_00-06_00_00.log.gz', 'pre_prod/bro/2019-09-20/ssl.06_00_00-07_00_00.log.gz', 'pre_prod/bro/2019-09-20/x509.03_00_00-04_00_00.log.gz', 'pre_prod/bro/2019-09-20/x509.05_00_00-06_00_00.log.gz', 'pre_prod/bro/2019-09-21/conn.00_00_00-01_00_00.log.gz', 'pre_prod/bro/2019-09-21/conn.01_00_00-02_00_00.log.gz', 'pre_prod/bro/2019-09-21/conn.02_00_00-03_00_00.log.gz', 'pre_prod/bro/2019-09-21/files.00_00_00-01_00_00.log.gz', 'pre_prod/bro/2019-09-21/files.01_00_00-02_00_00.log.gz', 'pre_prod/bro/2019-09-21/http.00_00_00-01_00_00.log.gz', 'pre_prod/bro/2019-09-21/http.01_00_00-02_00_00.log.gz', 'pre_prod/bro/2019-09-21/http.02_00_00-03_00_00.log.gz', 'pre_prod/bro/2019-09-21/ssl.00_00_00-01_00_00.log.gz', 'pre_prod/bro/2019-09-21/ssl.01_00_00-02_00_00.log.gz', 'pre_prod/bro/2019-09-21/x509.00_00_00-01_00_00.log.gz', 'pre_prod/bro/2019-09-21/x509.01_00_00-02_00_00.log.gz', 'pre_prod/bro/2019-09-24/communication.03_00_00-04_00_00.log.gz', 'pre_prod/bro/2019-09-24/communication.04_00_00-05_00_00.log.gz', 'pre_prod/bro/2019-09-24/communication.05_00_00-06_00_00.log.gz', 'pre_prod/bro/2019-09-24/communication.06_00_00-07_00_00.log.gz', 'pre_prod/bro/2019-09-24/communication.07_00_00-08_00_00.log.gz', 'pre_prod/bro/2019-09-24/communication.08_00_00-09_00_00.log.gz', 'pre_prod/bro/2019-09-24/communication.14_00_00-15_00_00.log.gz', 'pre_prod/bro/2019-09-24/conn-summary.03_00_00-04_00_00.log.gz', 'pre_prod/bro/2019-09-24/conn-summary.04_00_00-05_00_00.log.gz', 'pre_prod/bro/2019-09-24/conn.11_00_00-12_00_00.log.gz', 'pre_prod/bro/2019-09-24/conn.12_00_00-13_00_00.log.gz', 'pre_prod/bro/2019-09-24/conn.13_00_00-14_00_00.log.gz', 'pre_prod/bro/2019-09-24/conn.14_00_00-15_00_00.log.gz', 'pre_prod/bro/2019-09-24/conn.15_00_00-16_00_00.log.gz', 'pre_prod/bro/2019-09-24/dns.04_00_00-05_00_00.log.gz', 'pre_prod/bro/2019-09-24/dns.05_00_00-06_00_00.log.gz', 'pre_prod/bro/2019-09-24/dns.06_00_00-07_00_00.log.gz', 'pre_prod/bro/2019-09-24/dns.07_00_00-08_00_00.log.gz', 'pre_prod/bro/2019-09-24/dns.08_00_00-09_00_00.log.gz', 'pre_prod/bro/2019-09-24/dns.14_00_00-15_00_00.log.gz', 'pre_prod/bro/2019-09-24/files.09_00_00-10_00_00.log.gz', 'pre_prod/bro/2019-09-24/files.10_00_00-11_00_00.log.gz', 'pre_prod/bro/2019-09-24/files.11_00_00-12_00_00.log.gz', 'pre_prod/bro/2019-09-24/files.12_00_00-13_00_00.log.gz', 'pre_prod/bro/2019-09-24/files.13_00_00-14_00_00.log.gz', 'pre_prod/bro/2019-09-24/files.14_00_00-15_00_00.log.gz', 'pre_prod/bro/2019-09-24/files.15_00_00-16_00_00.log.gz', 'pre_prod/bro/2019-09-24/http.11_00_00-12_00_00.log.gz', 'pre_prod/bro/2019-09-24/http.12_00_00-13_00_00.log.gz', 'pre_prod/bro/2019-09-24/http.13_00_00-14_00_00.log.gz', 'pre_prod/bro/2019-09-24/http.14_00_00-15_00_00.log.gz', 'pre_prod/bro/2019-09-24/http.15_00_00-16_00_00.log.gz', 'pre_prod/bro/2019-09-24/nema_fileless.03_00_00-04_00_00.log.gz', 'pre_prod/bro/2019-09-24/nema_fileless.04_00_00-05_00_00.log.gz', 'pre_prod/bro/2019-09-24/nema_fileless.05_00_00-06_00_00.log.gz', 'pre_prod/bro/2019-09-24/reporter.04_00_00-05_00_00.log.gz', 'pre_prod/bro/2019-09-24/reporter.05_00_00-06_00_00.log.gz', 'pre_prod/bro/2019-09-24/smtp.03_00_00-04_00_00.log.gz', 'pre_prod/bro/2019-09-24/smtp.04_00_00-05_00_00.log.gz', 'pre_prod/bro/2019-09-24/smtp.05_00_00-06_00_00.log.gz', 'pre_prod/bro/2019-09-24/smtp.06_00_00-07_00_00.log.gz', 'pre_prod/bro/2019-09-24/smtp.07_00_00-08_00_00.log.gz', 'pre_prod/bro/2019-09-24/ssl.10_00_00-11_00_00.log.gz', 'pre_prod/bro/2019-09-24/ssl.11_00_00-12_00_00.log.gz', 'pre_prod/bro/2019-09-24/ssl.12_00_00-13_00_00.log.gz', 'pre_prod/bro/2019-09-24/ssl.13_00_00-14_00_00.log.gz', 'pre_prod/bro/2019-09-24/ssl.14_00_00-15_00_00.log.gz', 'pre_prod/bro/2019-09-24/ssl.15_00_00-16_00_00.log.gz', 'pre_prod/bro/2019-09-24/weird.04_00_00-05_00_00.log.gz', 'pre_prod/bro/2019-09-24/weird.05_00_00-06_00_00.log.gz', 'pre_prod/bro/2019-09-24/weird.06_00_00-07_00_00.log.gz', 'pre_prod/bro/2019-09-24/x509.03_00_00-04_00_00.log.gz', 'pre_prod/bro/2019-09-24/x509.04_00_00-05_00_00.log.gz', 'pre_prod/bro/2019-09-24/x509.05_00_00-06_00_00.log.gz', 'pre_prod/bro/2019-09-24/x509.06_00_00-07_00_00.log.gz', 'pre_prod/bro/2019-09-24/x509.07_00_00-08_00_00.log.gz', 'pre_prod/bro/2019-09-24/x509.08_00_00-09_00_00.log.gz', 'pre_prod/bro/2019-09-24/x509.09_00_00-10_00_00.log.gz', 'pre_prod/bro/2019-09-24/x509.10_00_00-11_00_00.log.gz', 'pre_prod/bro/2019-09-24/x509.13_00_00-14_00_00.log.gz', 'pre_prod/bro/2019-09-24/x509.14_00_00-15_00_00.log.gz', 'test_auto/AIA-1-25.ecar-2019-12-07T01-05-16.619.json.gz', 'test_auto/AIA-1-25.ecar-last.json.gz', 'test_auto/ecar/AIA-1-25.ecar-2019-12-07T01-05-16.619.json.gz', 'test_auto/ecar/AIA-1-25.ecar-last.json.gz']
+estimated time is 20.0 hours.
+pre_prod/bro/2019-09-14/files.00_00_00-01_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-14/files.00_00_00-01_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.8670110702514648 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 236 files remaining to convert
+pre_prod/bro/2019-09-14/http.00_00_00-01_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-14/http.00_00_00-01_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 2.687530994415283 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 235 files remaining to convert
+pre_prod/bro/2019-09-14/x509.01_00_00-02_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-14/x509.01_00_00-02_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.7503087520599365 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 234 files remaining to convert
+pre_prod/bro/2019-09-17/communication.00_00_00-01_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-17/communication.00_00_00-01_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.4807264804840088 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 233 files remaining to convert
+pre_prod/bro/2019-09-17/communication.01_00_00-02_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-17/communication.01_00_00-02_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.5578465461730957 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 232 files remaining to convert
+pre_prod/bro/2019-09-17/communication.02_00_00-03_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-17/communication.02_00_00-03_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.5686438083648682 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 231 files remaining to convert
+pre_prod/bro/2019-09-17/conn-summary.00_00_00-01_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-17/conn-summary.00_00_00-01_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.1961967945098877 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 230 files remaining to convert
+pre_prod/bro/2019-09-17/conn-summary.01_00_00-02_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-17/conn-summary.01_00_00-02_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.2661402225494385 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 229 files remaining to convert
+pre_prod/bro/2019-09-17/conn-summary.02_00_00-03_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-17/conn-summary.02_00_00-03_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.24768424034118652 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 228 files remaining to convert
+pre_prod/bro/2019-09-17/dns.00_00_00-01_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-17/dns.00_00_00-01_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.3816697597503662 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 227 files remaining to convert
+pre_prod/bro/2019-09-17/dns.01_00_00-02_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-17/dns.01_00_00-02_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.5100424289703369 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 226 files remaining to convert
+pre_prod/bro/2019-09-17/dns.02_00_00-03_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-17/dns.02_00_00-03_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.36620402336120605 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 225 files remaining to convert
+pre_prod/bro/2019-09-17/nema_fileless.01_00_00-02_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-17/nema_fileless.01_00_00-02_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.2116103172302246 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 224 files remaining to convert
+pre_prod/bro/2019-09-17/nema_fileless.02_00_00-03_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-17/nema_fileless.02_00_00-03_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.20235276222229004 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 223 files remaining to convert
+pre_prod/bro/2019-09-17/reporter.00_00_00-01_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-17/reporter.00_00_00-01_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.19974327087402344 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 222 files remaining to convert
+pre_prod/bro/2019-09-17/reporter.01_00_00-02_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-17/reporter.01_00_00-02_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.22423315048217773 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 221 files remaining to convert
+pre_prod/bro/2019-09-17/reporter.02_00_00-03_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-17/reporter.02_00_00-03_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.2674376964569092 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 220 files remaining to convert
+pre_prod/bro/2019-09-17/reporter.03_00_00-04_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-17/reporter.03_00_00-04_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.2849726676940918 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 219 files remaining to convert
+pre_prod/bro/2019-09-17/smtp.00_00_00-01_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-17/smtp.00_00_00-01_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.3434772491455078 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 218 files remaining to convert
+pre_prod/bro/2019-09-17/smtp.01_00_00-02_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-17/smtp.01_00_00-02_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.3218255043029785 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 217 files remaining to convert
+pre_prod/bro/2019-09-17/smtp.02_00_00-03_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-17/smtp.02_00_00-03_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.3283729553222656 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 216 files remaining to convert
+pre_prod/bro/2019-09-17/weird.00_00_00-01_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-17/weird.00_00_00-01_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.25282835960388184 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 215 files remaining to convert
+pre_prod/bro/2019-09-17/weird.01_00_00-02_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-17/weird.01_00_00-02_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.28543853759765625 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 214 files remaining to convert
+pre_prod/bro/2019-09-17/weird.02_00_00-03_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-17/weird.02_00_00-03_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.24679207801818848 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 213 files remaining to convert
+pre_prod/bro/2019-09-17/weird.03_00_00-04_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-17/weird.03_00_00-04_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.220566987991333 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 212 files remaining to convert
+pre_prod/bro/2019-09-17/x509.00_00_00-01_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-17/x509.00_00_00-01_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.533494234085083 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 211 files remaining to convert
+pre_prod/bro/2019-09-17/x509.01_00_00-02_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-17/x509.01_00_00-02_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.4471888542175293 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 210 files remaining to convert
+pre_prod/bro/2019-09-17/x509.02_00_00-03_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-17/x509.02_00_00-03_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.5712802410125732 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 209 files remaining to convert
+pre_prod/bro/2019-09-18/communication.02_00_00-03_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/communication.02_00_00-03_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.5344908237457275 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 208 files remaining to convert
+pre_prod/bro/2019-09-18/communication.03_00_00-04_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/communication.03_00_00-04_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.46335697174072266 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 207 files remaining to convert
+pre_prod/bro/2019-09-18/communication.04_00_00-05_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/communication.04_00_00-05_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.44547176361083984 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 206 files remaining to convert
+pre_prod/bro/2019-09-18/communication.05_00_00-06_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/communication.05_00_00-06_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.42476439476013184 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 205 files remaining to convert
+pre_prod/bro/2019-09-18/communication.06_00_00-07_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/communication.06_00_00-07_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.4217352867126465 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 204 files remaining to convert
+pre_prod/bro/2019-09-18/communication.07_00_00-08_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/communication.07_00_00-08_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.5176725387573242 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 203 files remaining to convert
+pre_prod/bro/2019-09-18/communication.08_00_00-09_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/communication.08_00_00-09_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.5097260475158691 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 202 files remaining to convert
+pre_prod/bro/2019-09-18/communication.09_00_00-10_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/communication.09_00_00-10_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.43239378929138184 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 201 files remaining to convert
+pre_prod/bro/2019-09-18/communication.10_00_00-11_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/communication.10_00_00-11_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.4556238651275635 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 200 files remaining to convert
+pre_prod/bro/2019-09-18/communication.16_00_00-17_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/communication.16_00_00-17_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.49448060989379883 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 199 files remaining to convert
+pre_prod/bro/2019-09-18/conn-summary.01_00_00-02_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/conn-summary.01_00_00-02_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.22190332412719727 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 198 files remaining to convert
+pre_prod/bro/2019-09-18/conn-summary.02_00_00-03_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/conn-summary.02_00_00-03_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.22878289222717285 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 197 files remaining to convert
+pre_prod/bro/2019-09-18/conn-summary.03_00_00-04_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/conn-summary.03_00_00-04_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.18462657928466797 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 196 files remaining to convert
+pre_prod/bro/2019-09-18/conn-summary.04_00_00-05_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/conn-summary.04_00_00-05_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.18900179862976074 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 195 files remaining to convert
+pre_prod/bro/2019-09-18/conn-summary.05_00_00-06_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/conn-summary.05_00_00-06_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.3344461917877197 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 194 files remaining to convert
+pre_prod/bro/2019-09-18/conn-summary.06_00_00-07_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/conn-summary.06_00_00-07_00_00.log
+ 1:33AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.24429631233215332 seconds ---
+ 1:33AM UTC on Feb 22, 2023 -- There are 193 files remaining to convert
+pre_prod/bro/2019-09-18/conn.12_00_00-13_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/conn.12_00_00-13_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 3.270569086074829 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 192 files remaining to convert
+pre_prod/bro/2019-09-18/conn.13_00_00-14_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/conn.13_00_00-14_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.5269505977630615 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 191 files remaining to convert
+pre_prod/bro/2019-09-18/conn.14_00_00-15_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/conn.14_00_00-15_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.44669294357299805 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 190 files remaining to convert
+pre_prod/bro/2019-09-18/conn.15_00_00-16_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/conn.15_00_00-16_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.4430687427520752 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 189 files remaining to convert
+pre_prod/bro/2019-09-18/conn.17_00_00-18_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/conn.17_00_00-18_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.8906064033508301 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 188 files remaining to convert
+pre_prod/bro/2019-09-18/dns.02_00_00-03_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/dns.02_00_00-03_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.3524494171142578 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 187 files remaining to convert
+pre_prod/bro/2019-09-18/dns.03_00_00-04_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/dns.03_00_00-04_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.4661998748779297 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 186 files remaining to convert
+pre_prod/bro/2019-09-18/dns.04_00_00-05_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/dns.04_00_00-05_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.5219173431396484 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 185 files remaining to convert
+pre_prod/bro/2019-09-18/dns.05_00_00-06_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/dns.05_00_00-06_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.4229416847229004 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 184 files remaining to convert
+pre_prod/bro/2019-09-18/dns.06_00_00-07_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/dns.06_00_00-07_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.5096907615661621 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 183 files remaining to convert
+pre_prod/bro/2019-09-18/dns.07_00_00-08_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/dns.07_00_00-08_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.48573732376098633 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 182 files remaining to convert
+pre_prod/bro/2019-09-18/dns.08_00_00-09_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/dns.08_00_00-09_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.4942209720611572 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 181 files remaining to convert
+pre_prod/bro/2019-09-18/dns.09_00_00-10_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/dns.09_00_00-10_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.4126772880554199 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 180 files remaining to convert
+pre_prod/bro/2019-09-18/dns.10_00_00-11_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/dns.10_00_00-11_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.401348352432251 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 179 files remaining to convert
+pre_prod/bro/2019-09-18/dns.12_00_00-13_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/dns.12_00_00-13_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.6066925525665283 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 178 files remaining to convert
+pre_prod/bro/2019-09-18/dns.15_00_00-16_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/dns.15_00_00-16_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.42214202880859375 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 177 files remaining to convert
+pre_prod/bro/2019-09-18/files.12_00_00-13_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/files.12_00_00-13_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.9547383785247803 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 176 files remaining to convert
+pre_prod/bro/2019-09-18/files.13_00_00-14_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/files.13_00_00-14_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.9919929504394531 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 175 files remaining to convert
+pre_prod/bro/2019-09-18/http.12_00_00-13_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/http.12_00_00-13_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 2.1052634716033936 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 174 files remaining to convert
+pre_prod/bro/2019-09-18/http.13_00_00-14_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/http.13_00_00-14_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.0717854499816895 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 173 files remaining to convert
+pre_prod/bro/2019-09-18/nema_fileless.02_00_00-03_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/nema_fileless.02_00_00-03_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.16966652870178223 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 172 files remaining to convert
+pre_prod/bro/2019-09-18/nema_fileless.03_00_00-04_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/nema_fileless.03_00_00-04_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.18342041969299316 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 171 files remaining to convert
+pre_prod/bro/2019-09-18/nema_fileless.04_00_00-05_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/nema_fileless.04_00_00-05_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.22817611694335938 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 170 files remaining to convert
+pre_prod/bro/2019-09-18/nema_fileless.05_00_00-06_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/nema_fileless.05_00_00-06_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.2347249984741211 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 169 files remaining to convert
+pre_prod/bro/2019-09-18/nema_fileless.06_00_00-07_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/nema_fileless.06_00_00-07_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.20357990264892578 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 168 files remaining to convert
+pre_prod/bro/2019-09-18/reporter.02_00_00-03_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/reporter.02_00_00-03_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.24311113357543945 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 167 files remaining to convert
+pre_prod/bro/2019-09-18/reporter.03_00_00-04_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/reporter.03_00_00-04_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.2221064567565918 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 166 files remaining to convert
+pre_prod/bro/2019-09-18/reporter.04_00_00-05_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/reporter.04_00_00-05_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.27242016792297363 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 165 files remaining to convert
+pre_prod/bro/2019-09-18/reporter.05_00_00-06_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/reporter.05_00_00-06_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.19945192337036133 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 164 files remaining to convert
+pre_prod/bro/2019-09-18/reporter.06_00_00-07_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/reporter.06_00_00-07_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.29633641242980957 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 163 files remaining to convert
+pre_prod/bro/2019-09-18/reporter.07_00_00-08_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/reporter.07_00_00-08_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.20292353630065918 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 162 files remaining to convert
+pre_prod/bro/2019-09-18/smtp.02_00_00-03_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/smtp.02_00_00-03_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.22075438499450684 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 161 files remaining to convert
+pre_prod/bro/2019-09-18/smtp.04_00_00-05_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/smtp.04_00_00-05_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.33811116218566895 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 160 files remaining to convert
+pre_prod/bro/2019-09-18/smtp.05_00_00-06_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/smtp.05_00_00-06_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.33298659324645996 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 159 files remaining to convert
+pre_prod/bro/2019-09-18/smtp.06_00_00-07_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/smtp.06_00_00-07_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.25641727447509766 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 158 files remaining to convert
+pre_prod/bro/2019-09-18/smtp.07_00_00-08_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/smtp.07_00_00-08_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.2562844753265381 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 157 files remaining to convert
+pre_prod/bro/2019-09-18/smtp.08_00_00-09_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/smtp.08_00_00-09_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.24751949310302734 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 156 files remaining to convert
+pre_prod/bro/2019-09-18/ssl.11_00_00-12_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/ssl.11_00_00-12_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 2.8999667167663574 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 155 files remaining to convert
+pre_prod/bro/2019-09-18/ssl.12_00_00-13_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/ssl.12_00_00-13_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 2.7621352672576904 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 154 files remaining to convert
+pre_prod/bro/2019-09-18/ssl.13_00_00-14_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/ssl.13_00_00-14_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.179762363433838 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 153 files remaining to convert
+pre_prod/bro/2019-09-18/ssl.14_00_00-15_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/ssl.14_00_00-15_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.47745442390441895 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 152 files remaining to convert
+pre_prod/bro/2019-09-18/ssl.15_00_00-16_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/ssl.15_00_00-16_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.5645143985748291 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 151 files remaining to convert
+pre_prod/bro/2019-09-18/ssl.17_00_00-18_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/ssl.17_00_00-18_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.7292478084564209 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 150 files remaining to convert
+pre_prod/bro/2019-09-18/ssl.18_00_00-19_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/ssl.18_00_00-19_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.7742936611175537 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 149 files remaining to convert
+pre_prod/bro/2019-09-18/ssl.19_00_00-20_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/ssl.19_00_00-20_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.3773293495178223 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 148 files remaining to convert
+pre_prod/bro/2019-09-18/weird.02_00_00-03_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/weird.02_00_00-03_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.16322541236877441 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 147 files remaining to convert
+pre_prod/bro/2019-09-18/weird.03_00_00-04_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/weird.03_00_00-04_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.1836850643157959 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 146 files remaining to convert
+pre_prod/bro/2019-09-18/weird.04_00_00-05_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/weird.04_00_00-05_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.28085780143737793 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 145 files remaining to convert
+pre_prod/bro/2019-09-18/weird.05_00_00-06_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/weird.05_00_00-06_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.24230480194091797 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 144 files remaining to convert
+pre_prod/bro/2019-09-18/weird.06_00_00-07_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/weird.06_00_00-07_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.211090087890625 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 143 files remaining to convert
+pre_prod/bro/2019-09-18/weird.07_00_00-08_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/weird.07_00_00-08_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.23822951316833496 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 142 files remaining to convert
+pre_prod/bro/2019-09-18/weird.08_00_00-09_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/weird.08_00_00-09_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.22721266746520996 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 141 files remaining to convert
+pre_prod/bro/2019-09-18/x509.02_00_00-03_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/x509.02_00_00-03_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.5526223182678223 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 140 files remaining to convert
+pre_prod/bro/2019-09-18/x509.03_00_00-04_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/x509.03_00_00-04_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.4511280059814453 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 139 files remaining to convert
+pre_prod/bro/2019-09-18/x509.04_00_00-05_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/x509.04_00_00-05_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.568709135055542 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 138 files remaining to convert
+pre_prod/bro/2019-09-18/x509.05_00_00-06_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/x509.05_00_00-06_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.6043744087219238 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 137 files remaining to convert
+pre_prod/bro/2019-09-18/x509.06_00_00-07_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/x509.06_00_00-07_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.5543088912963867 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 136 files remaining to convert
+pre_prod/bro/2019-09-18/x509.07_00_00-08_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/x509.07_00_00-08_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.5309455394744873 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 135 files remaining to convert
+pre_prod/bro/2019-09-18/x509.08_00_00-09_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/x509.08_00_00-09_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.5429949760437012 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 134 files remaining to convert
+pre_prod/bro/2019-09-18/x509.09_00_00-10_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/x509.09_00_00-10_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.4534759521484375 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 133 files remaining to convert
+pre_prod/bro/2019-09-18/x509.10_00_00-11_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/x509.10_00_00-11_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.5381379127502441 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 132 files remaining to convert
+pre_prod/bro/2019-09-18/x509.11_00_00-12_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/x509.11_00_00-12_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.5936310291290283 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 131 files remaining to convert
+pre_prod/bro/2019-09-18/x509.12_00_00-13_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-18/x509.12_00_00-13_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.683225154876709 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 130 files remaining to convert
+pre_prod/bro/2019-09-19/conn.04_00_00-05_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/conn.04_00_00-05_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 2.688180446624756 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 129 files remaining to convert
+pre_prod/bro/2019-09-19/conn.05_00_00-06_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/conn.05_00_00-06_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 2.5345962047576904 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 128 files remaining to convert
+pre_prod/bro/2019-09-19/conn.06_00_00-07_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/conn.06_00_00-07_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 3.115415573120117 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 127 files remaining to convert
+pre_prod/bro/2019-09-19/conn.07_00_00-08_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/conn.07_00_00-08_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 2.643094539642334 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 126 files remaining to convert
+pre_prod/bro/2019-09-19/conn.08_00_00-09_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/conn.08_00_00-09_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 2.7778267860412598 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 125 files remaining to convert
+pre_prod/bro/2019-09-19/conn.09_00_00-10_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/conn.09_00_00-10_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 2.6131794452667236 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 124 files remaining to convert
+pre_prod/bro/2019-09-19/dns.05_00_00-06_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/dns.05_00_00-06_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.5731298923492432 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 123 files remaining to convert
+pre_prod/bro/2019-09-19/dns.06_00_00-07_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/dns.06_00_00-07_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.5614919662475586 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 122 files remaining to convert
+pre_prod/bro/2019-09-19/dns.07_00_00-08_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/dns.07_00_00-08_00_00.log
+ 1:34AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.47969889640808105 seconds ---
+ 1:34AM UTC on Feb 22, 2023 -- There are 121 files remaining to convert
+pre_prod/bro/2019-09-19/files.03_00_00-04_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/files.03_00_00-04_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.2158560752868652 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 120 files remaining to convert
+pre_prod/bro/2019-09-19/files.04_00_00-05_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/files.04_00_00-05_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.0848805904388428 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 119 files remaining to convert
+pre_prod/bro/2019-09-19/files.05_00_00-06_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/files.05_00_00-06_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.2093443870544434 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 118 files remaining to convert
+pre_prod/bro/2019-09-19/files.06_00_00-07_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/files.06_00_00-07_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.4992780685424805 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 117 files remaining to convert
+pre_prod/bro/2019-09-19/files.07_00_00-08_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/files.07_00_00-08_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.2311198711395264 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 116 files remaining to convert
+pre_prod/bro/2019-09-19/files.08_00_00-09_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/files.08_00_00-09_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.1272907257080078 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 115 files remaining to convert
+pre_prod/bro/2019-09-19/http.03_00_00-04_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/http.03_00_00-04_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.5275943279266357 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 114 files remaining to convert
+pre_prod/bro/2019-09-19/http.04_00_00-05_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/http.04_00_00-05_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.7199718952178955 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 113 files remaining to convert
+pre_prod/bro/2019-09-19/http.05_00_00-06_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/http.05_00_00-06_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.4340684413909912 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 112 files remaining to convert
+pre_prod/bro/2019-09-19/http.06_00_00-07_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/http.06_00_00-07_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.6120998859405518 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 111 files remaining to convert
+pre_prod/bro/2019-09-19/http.07_00_00-08_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/http.07_00_00-08_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.5611488819122314 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 110 files remaining to convert
+pre_prod/bro/2019-09-19/http.08_00_00-09_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/http.08_00_00-09_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.6972620487213135 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 109 files remaining to convert
+pre_prod/bro/2019-09-19/smtp.05_00_00-06_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/smtp.05_00_00-06_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.4724233150482178 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 108 files remaining to convert
+pre_prod/bro/2019-09-19/smtp.06_00_00-07_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/smtp.06_00_00-07_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.44564199447631836 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 107 files remaining to convert
+pre_prod/bro/2019-09-19/smtp.07_00_00-08_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/smtp.07_00_00-08_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.37503767013549805 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 106 files remaining to convert
+pre_prod/bro/2019-09-19/ssl.03_00_00-04_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/ssl.03_00_00-04_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 2.4553914070129395 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 105 files remaining to convert
+pre_prod/bro/2019-09-19/ssl.04_00_00-05_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/ssl.04_00_00-05_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 2.6271073818206787 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 104 files remaining to convert
+pre_prod/bro/2019-09-19/ssl.05_00_00-06_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/ssl.05_00_00-06_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 2.7704391479492188 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 103 files remaining to convert
+pre_prod/bro/2019-09-19/ssl.06_00_00-07_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/ssl.06_00_00-07_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 2.6104605197906494 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 102 files remaining to convert
+pre_prod/bro/2019-09-19/ssl.07_00_00-08_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/ssl.07_00_00-08_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 2.4147095680236816 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 101 files remaining to convert
+pre_prod/bro/2019-09-19/ssl.08_00_00-09_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/ssl.08_00_00-09_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 2.454509735107422 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 100 files remaining to convert
+pre_prod/bro/2019-09-19/x509.03_00_00-04_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/x509.03_00_00-04_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.4581432342529297 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 99 files remaining to convert
+pre_prod/bro/2019-09-19/x509.04_00_00-05_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/x509.04_00_00-05_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.52467942237854 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 98 files remaining to convert
+pre_prod/bro/2019-09-19/x509.05_00_00-06_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/x509.05_00_00-06_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.6202700138092041 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 97 files remaining to convert
+pre_prod/bro/2019-09-19/x509.06_00_00-07_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/x509.06_00_00-07_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.5661525726318359 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 96 files remaining to convert
+pre_prod/bro/2019-09-19/x509.07_00_00-08_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-19/x509.07_00_00-08_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.615764856338501 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 95 files remaining to convert
+pre_prod/bro/2019-09-20/communication.03_00_00-04_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-20/communication.03_00_00-04_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.5354523658752441 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 94 files remaining to convert
+pre_prod/bro/2019-09-20/conn.02_00_00-03_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-20/conn.02_00_00-03_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.3278112411499023 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 93 files remaining to convert
+pre_prod/bro/2019-09-20/conn.03_00_00-04_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-20/conn.03_00_00-04_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.608368158340454 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 92 files remaining to convert
+pre_prod/bro/2019-09-20/conn.04_00_00-05_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-20/conn.04_00_00-05_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.322011947631836 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 91 files remaining to convert
+pre_prod/bro/2019-09-20/conn.05_00_00-06_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-20/conn.05_00_00-06_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.352895736694336 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 90 files remaining to convert
+pre_prod/bro/2019-09-20/conn.06_00_00-07_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-20/conn.06_00_00-07_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.5114984512329102 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 89 files remaining to convert
+pre_prod/bro/2019-09-20/dns.05_00_00-06_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-20/dns.05_00_00-06_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.5084712505340576 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 88 files remaining to convert
+pre_prod/bro/2019-09-20/files.03_00_00-04_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-20/files.03_00_00-04_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.4832432270050049 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 87 files remaining to convert
+pre_prod/bro/2019-09-20/files.04_00_00-05_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-20/files.04_00_00-05_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.45039820671081543 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 86 files remaining to convert
+pre_prod/bro/2019-09-20/files.05_00_00-06_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-20/files.05_00_00-06_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.5012376308441162 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 85 files remaining to convert
+pre_prod/bro/2019-09-20/http.04_00_00-05_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-20/http.04_00_00-05_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.6255593299865723 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 84 files remaining to convert
+pre_prod/bro/2019-09-20/smtp.04_00_00-05_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-20/smtp.04_00_00-05_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.37447571754455566 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 83 files remaining to convert
+pre_prod/bro/2019-09-20/ssl.03_00_00-04_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-20/ssl.03_00_00-04_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.4636332988739014 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 82 files remaining to convert
+pre_prod/bro/2019-09-20/ssl.04_00_00-05_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-20/ssl.04_00_00-05_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.3398382663726807 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 81 files remaining to convert
+pre_prod/bro/2019-09-20/ssl.05_00_00-06_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-20/ssl.05_00_00-06_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.2798895835876465 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 80 files remaining to convert
+pre_prod/bro/2019-09-20/ssl.06_00_00-07_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-20/ssl.06_00_00-07_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.2344470024108887 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 79 files remaining to convert
+pre_prod/bro/2019-09-20/x509.03_00_00-04_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-20/x509.03_00_00-04_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.5058913230895996 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 78 files remaining to convert
+pre_prod/bro/2019-09-20/x509.05_00_00-06_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-20/x509.05_00_00-06_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.41783881187438965 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 77 files remaining to convert
+pre_prod/bro/2019-09-21/conn.00_00_00-01_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-21/conn.00_00_00-01_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 2.920057535171509 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 76 files remaining to convert
+pre_prod/bro/2019-09-21/conn.01_00_00-02_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-21/conn.01_00_00-02_00_00.log
+ 1:35AM UTC on Feb 22, 2023 -- file upload complete
+--- 3.4129698276519775 seconds ---
+ 1:35AM UTC on Feb 22, 2023 -- There are 75 files remaining to convert
+pre_prod/bro/2019-09-21/conn.02_00_00-03_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-21/conn.02_00_00-03_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 3.2044677734375 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 74 files remaining to convert
+pre_prod/bro/2019-09-21/files.00_00_00-01_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-21/files.00_00_00-01_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.2602152824401855 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 73 files remaining to convert
+pre_prod/bro/2019-09-21/files.01_00_00-02_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-21/files.01_00_00-02_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.423374891281128 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 72 files remaining to convert
+pre_prod/bro/2019-09-21/http.00_00_00-01_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-21/http.00_00_00-01_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.6948869228363037 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 71 files remaining to convert
+pre_prod/bro/2019-09-21/http.01_00_00-02_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-21/http.01_00_00-02_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.7992289066314697 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 70 files remaining to convert
+pre_prod/bro/2019-09-21/http.02_00_00-03_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-21/http.02_00_00-03_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.9241223335266113 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 69 files remaining to convert
+pre_prod/bro/2019-09-21/ssl.00_00_00-01_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-21/ssl.00_00_00-01_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 2.7686262130737305 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 68 files remaining to convert
+pre_prod/bro/2019-09-21/ssl.01_00_00-02_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-21/ssl.01_00_00-02_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 3.2980611324310303 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 67 files remaining to convert
+pre_prod/bro/2019-09-21/x509.00_00_00-01_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-21/x509.00_00_00-01_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.4687972068786621 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 66 files remaining to convert
+pre_prod/bro/2019-09-21/x509.01_00_00-02_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-21/x509.01_00_00-02_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.5015265941619873 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 65 files remaining to convert
+pre_prod/bro/2019-09-24/communication.03_00_00-04_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/communication.03_00_00-04_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.5555152893066406 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 64 files remaining to convert
+pre_prod/bro/2019-09-24/communication.04_00_00-05_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/communication.04_00_00-05_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.4439117908477783 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 63 files remaining to convert
+pre_prod/bro/2019-09-24/communication.05_00_00-06_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/communication.05_00_00-06_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.54374098777771 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 62 files remaining to convert
+pre_prod/bro/2019-09-24/communication.06_00_00-07_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/communication.06_00_00-07_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.41014671325683594 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 61 files remaining to convert
+pre_prod/bro/2019-09-24/communication.07_00_00-08_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/communication.07_00_00-08_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.5056757926940918 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 60 files remaining to convert
+pre_prod/bro/2019-09-24/communication.08_00_00-09_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/communication.08_00_00-09_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.4362313747406006 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 59 files remaining to convert
+pre_prod/bro/2019-09-24/communication.14_00_00-15_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/communication.14_00_00-15_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.4627211093902588 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 58 files remaining to convert
+pre_prod/bro/2019-09-24/conn-summary.03_00_00-04_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/conn-summary.03_00_00-04_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.22301125526428223 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 57 files remaining to convert
+pre_prod/bro/2019-09-24/conn-summary.04_00_00-05_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/conn-summary.04_00_00-05_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.23668122291564941 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 56 files remaining to convert
+pre_prod/bro/2019-09-24/conn.11_00_00-12_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/conn.11_00_00-12_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 2.826693058013916 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 55 files remaining to convert
+pre_prod/bro/2019-09-24/conn.12_00_00-13_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/conn.12_00_00-13_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 2.603219747543335 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 54 files remaining to convert
+pre_prod/bro/2019-09-24/conn.13_00_00-14_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/conn.13_00_00-14_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 2.6984119415283203 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 53 files remaining to convert
+pre_prod/bro/2019-09-24/conn.14_00_00-15_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/conn.14_00_00-15_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 2.903808116912842 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 52 files remaining to convert
+pre_prod/bro/2019-09-24/conn.15_00_00-16_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/conn.15_00_00-16_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 3.0527660846710205 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 51 files remaining to convert
+pre_prod/bro/2019-09-24/dns.04_00_00-05_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/dns.04_00_00-05_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.4956982135772705 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 50 files remaining to convert
+pre_prod/bro/2019-09-24/dns.05_00_00-06_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/dns.05_00_00-06_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.39313507080078125 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 49 files remaining to convert
+pre_prod/bro/2019-09-24/dns.06_00_00-07_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/dns.06_00_00-07_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.4838902950286865 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 48 files remaining to convert
+pre_prod/bro/2019-09-24/dns.07_00_00-08_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/dns.07_00_00-08_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.6020393371582031 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 47 files remaining to convert
+pre_prod/bro/2019-09-24/dns.08_00_00-09_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/dns.08_00_00-09_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.4505608081817627 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 46 files remaining to convert
+pre_prod/bro/2019-09-24/dns.14_00_00-15_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/dns.14_00_00-15_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.4426445960998535 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 45 files remaining to convert
+pre_prod/bro/2019-09-24/files.09_00_00-10_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/files.09_00_00-10_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.3073432445526123 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 44 files remaining to convert
+pre_prod/bro/2019-09-24/files.10_00_00-11_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/files.10_00_00-11_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.133988380432129 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 43 files remaining to convert
+pre_prod/bro/2019-09-24/files.11_00_00-12_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/files.11_00_00-12_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.1538491249084473 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 42 files remaining to convert
+pre_prod/bro/2019-09-24/files.12_00_00-13_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/files.12_00_00-13_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.3580296039581299 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 41 files remaining to convert
+pre_prod/bro/2019-09-24/files.13_00_00-14_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/files.13_00_00-14_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.1942691802978516 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 40 files remaining to convert
+pre_prod/bro/2019-09-24/files.14_00_00-15_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/files.14_00_00-15_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.2091190814971924 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 39 files remaining to convert
+pre_prod/bro/2019-09-24/files.15_00_00-16_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/files.15_00_00-16_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.3776500225067139 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 38 files remaining to convert
+pre_prod/bro/2019-09-24/http.11_00_00-12_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/http.11_00_00-12_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.6551084518432617 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 37 files remaining to convert
+pre_prod/bro/2019-09-24/http.12_00_00-13_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/http.12_00_00-13_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.7108752727508545 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 36 files remaining to convert
+pre_prod/bro/2019-09-24/http.13_00_00-14_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/http.13_00_00-14_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.479367733001709 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 35 files remaining to convert
+pre_prod/bro/2019-09-24/http.14_00_00-15_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/http.14_00_00-15_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.6957426071166992 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 34 files remaining to convert
+pre_prod/bro/2019-09-24/http.15_00_00-16_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/http.15_00_00-16_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 1.849736213684082 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 33 files remaining to convert
+pre_prod/bro/2019-09-24/nema_fileless.03_00_00-04_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/nema_fileless.03_00_00-04_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.1638202667236328 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 32 files remaining to convert
+pre_prod/bro/2019-09-24/nema_fileless.04_00_00-05_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/nema_fileless.04_00_00-05_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.23593521118164062 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 31 files remaining to convert
+pre_prod/bro/2019-09-24/nema_fileless.05_00_00-06_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/nema_fileless.05_00_00-06_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.2854471206665039 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 30 files remaining to convert
+pre_prod/bro/2019-09-24/reporter.04_00_00-05_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/reporter.04_00_00-05_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.21921253204345703 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 29 files remaining to convert
+pre_prod/bro/2019-09-24/reporter.05_00_00-06_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/reporter.05_00_00-06_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.19580960273742676 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 28 files remaining to convert
+pre_prod/bro/2019-09-24/smtp.03_00_00-04_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/smtp.03_00_00-04_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.18586993217468262 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 27 files remaining to convert
+pre_prod/bro/2019-09-24/smtp.04_00_00-05_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/smtp.04_00_00-05_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.24140024185180664 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 26 files remaining to convert
+pre_prod/bro/2019-09-24/smtp.05_00_00-06_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/smtp.05_00_00-06_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.3188474178314209 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 25 files remaining to convert
+pre_prod/bro/2019-09-24/smtp.06_00_00-07_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/smtp.06_00_00-07_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.2724583148956299 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 24 files remaining to convert
+pre_prod/bro/2019-09-24/smtp.07_00_00-08_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/smtp.07_00_00-08_00_00.log
+ 1:36AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.3443930149078369 seconds ---
+ 1:36AM UTC on Feb 22, 2023 -- There are 23 files remaining to convert
+pre_prod/bro/2019-09-24/ssl.10_00_00-11_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/ssl.10_00_00-11_00_00.log
+ 1:37AM UTC on Feb 22, 2023 -- file upload complete
+--- 2.3633339405059814 seconds ---
+ 1:37AM UTC on Feb 22, 2023 -- There are 22 files remaining to convert
+pre_prod/bro/2019-09-24/ssl.11_00_00-12_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/ssl.11_00_00-12_00_00.log
+ 1:37AM UTC on Feb 22, 2023 -- file upload complete
+--- 2.4075238704681396 seconds ---
+ 1:37AM UTC on Feb 22, 2023 -- There are 21 files remaining to convert
+pre_prod/bro/2019-09-24/ssl.12_00_00-13_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/ssl.12_00_00-13_00_00.log
+ 1:37AM UTC on Feb 22, 2023 -- file upload complete
+--- 2.3967413902282715 seconds ---
+ 1:37AM UTC on Feb 22, 2023 -- There are 20 files remaining to convert
+pre_prod/bro/2019-09-24/ssl.13_00_00-14_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/ssl.13_00_00-14_00_00.log
+ 1:37AM UTC on Feb 22, 2023 -- file upload complete
+--- 2.408935070037842 seconds ---
+ 1:37AM UTC on Feb 22, 2023 -- There are 19 files remaining to convert
+pre_prod/bro/2019-09-24/ssl.14_00_00-15_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/ssl.14_00_00-15_00_00.log
+ 1:37AM UTC on Feb 22, 2023 -- file upload complete
+--- 2.795886754989624 seconds ---
+ 1:37AM UTC on Feb 22, 2023 -- There are 18 files remaining to convert
+pre_prod/bro/2019-09-24/ssl.15_00_00-16_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/ssl.15_00_00-16_00_00.log
+ 1:37AM UTC on Feb 22, 2023 -- file upload complete
+--- 2.800848960876465 seconds ---
+ 1:37AM UTC on Feb 22, 2023 -- There are 17 files remaining to convert
+pre_prod/bro/2019-09-24/weird.04_00_00-05_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/weird.04_00_00-05_00_00.log
+ 1:37AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.18212270736694336 seconds ---
+ 1:37AM UTC on Feb 22, 2023 -- There are 16 files remaining to convert
+pre_prod/bro/2019-09-24/weird.05_00_00-06_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/weird.05_00_00-06_00_00.log
+ 1:37AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.2283031940460205 seconds ---
+ 1:37AM UTC on Feb 22, 2023 -- There are 15 files remaining to convert
+pre_prod/bro/2019-09-24/weird.06_00_00-07_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/weird.06_00_00-07_00_00.log
+ 1:37AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.15880489349365234 seconds ---
+ 1:37AM UTC on Feb 22, 2023 -- There are 14 files remaining to convert
+pre_prod/bro/2019-09-24/x509.03_00_00-04_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/x509.03_00_00-04_00_00.log
+ 1:37AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.6142425537109375 seconds ---
+ 1:37AM UTC on Feb 22, 2023 -- There are 13 files remaining to convert
+pre_prod/bro/2019-09-24/x509.04_00_00-05_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/x509.04_00_00-05_00_00.log
+ 1:37AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.5146868228912354 seconds ---
+ 1:37AM UTC on Feb 22, 2023 -- There are 12 files remaining to convert
+pre_prod/bro/2019-09-24/x509.05_00_00-06_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/x509.05_00_00-06_00_00.log
+ 1:37AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.6160480976104736 seconds ---
+ 1:37AM UTC on Feb 22, 2023 -- There are 11 files remaining to convert
+pre_prod/bro/2019-09-24/x509.06_00_00-07_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/x509.06_00_00-07_00_00.log
+ 1:37AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.5249643325805664 seconds ---
+ 1:37AM UTC on Feb 22, 2023 -- There are 10 files remaining to convert
+pre_prod/bro/2019-09-24/x509.07_00_00-08_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/x509.07_00_00-08_00_00.log
+ 1:37AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.5699882507324219 seconds ---
+ 1:37AM UTC on Feb 22, 2023 -- There are 9 files remaining to convert
+pre_prod/bro/2019-09-24/x509.08_00_00-09_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/x509.08_00_00-09_00_00.log
+ 1:37AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.6187689304351807 seconds ---
+ 1:37AM UTC on Feb 22, 2023 -- There are 8 files remaining to convert
+pre_prod/bro/2019-09-24/x509.09_00_00-10_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/x509.09_00_00-10_00_00.log
+ 1:37AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.6002061367034912 seconds ---
+ 1:37AM UTC on Feb 22, 2023 -- There are 7 files remaining to convert
+pre_prod/bro/2019-09-24/x509.10_00_00-11_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/x509.10_00_00-11_00_00.log
+ 1:37AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.6183996200561523 seconds ---
+ 1:37AM UTC on Feb 22, 2023 -- There are 6 files remaining to convert
+pre_prod/bro/2019-09-24/x509.13_00_00-14_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/x509.13_00_00-14_00_00.log
+ 1:37AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.6182301044464111 seconds ---
+ 1:37AM UTC on Feb 22, 2023 -- There are 5 files remaining to convert
+pre_prod/bro/2019-09-24/x509.14_00_00-15_00_00.log.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/bro/2019-09-24/x509.14_00_00-15_00_00.log
+ 1:37AM UTC on Feb 22, 2023 -- file upload complete
+--- 0.5454914569854736 seconds ---
+ 1:37AM UTC on Feb 22, 2023 -- There are 4 files remaining to convert
+test_auto/AIA-1-25.ecar-2019-12-07T01-05-16.619.json.gz
+/home/ec2-user/SageMaker/tmp/test_auto/AIA-1-25.ecar-2019-12-07T01-05-16.619.json
+ 1:42AM UTC on Feb 22, 2023 -- file upload complete
+--- 294.2381520271301 seconds ---
+ 1:42AM UTC on Feb 22, 2023 -- There are 3 files remaining to convert
+test_auto/AIA-1-25.ecar-last.json.gz
+/home/ec2-user/SageMaker/tmp/test_auto/AIA-1-25.ecar-last.json
+ 1:43AM UTC on Feb 22, 2023 -- file upload complete
+--- 65.40082120895386 seconds ---
+ 1:43AM UTC on Feb 22, 2023 -- There are 2 files remaining to convert
+test_auto/ecar/AIA-1-25.ecar-2019-12-07T01-05-16.619.json.gz
+/home/ec2-user/SageMaker/tmp/test_auto/ecar/AIA-1-25.ecar-2019-12-07T01-05-16.619.json
+ 1:48AM UTC on Feb 22, 2023 -- file upload complete
+--- 318.87493681907654 seconds ---
+ 1:48AM UTC on Feb 22, 2023 -- There are 1 files remaining to convert
+test_auto/ecar/AIA-1-25.ecar-last.json.gz
+/home/ec2-user/SageMaker/tmp/test_auto/ecar/AIA-1-25.ecar-last.json
+ 1:50AM UTC on Feb 22, 2023 -- file upload complete
+--- 103.83930468559265 seconds ---
+ 1:50AM UTC on Feb 22, 2023 -- There are 0 files remaining to convert
+ 1:50AM UTC on Feb 22, 2023 -- total time was  --- 1004.3125765323639 seconds ---

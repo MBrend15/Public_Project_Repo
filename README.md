@@ -28,7 +28,7 @@ chmod 700 ~/.ssh
 This is done in two ways:
 1. Manually through the google drive
 2. run `gdrive_download.py`
-If (when) that fails from limits, update the link list to continue. Provided you have the local space, Bro and Ecar-bro will can be downloaded completely. Ecar will need to be split into smaller parts. Once you have the files downloaded, you'll want to upload them to S3. You can using aws cli. 
+If (when) that fails from limits, update the link list to continue. Provided you have the local space, Bro and Ecar-bro will can be downloaded completely. Ecar will need to be split into smaller parts. Once you have the files downloaded, you'll want to upload them to S3. You can using aws cli. We use `sync` rather than `cp` to ensure we only add what is not in S3 and do not overwrite any files. [AWS Sync](https://docs.aws.amazon.com/cli/latest/reference/s3/sync.html)
 Example (Notice bro is moving to bro. This maintains the file structure.):
 
 ```
@@ -38,7 +38,7 @@ aws s3 sync /home/ec2-user/SageMaker/ecar/ s3://sapient-bucket-raw/pre_prod/ecar
 ### Expansion of the files
 This was done by download each file from S3 and expanding it, then pushing it back to S3. You can run this command to complete this. This command allows the expansion to run as a process in the background log to file. You can view the file to see if any files failed and locate which.
 ```
-nohup python -u expand_files.py > expand_files.log &
+nohup python -u expand_files.py > logs/expand_files.log &
 ```
 
 ### Processing the data

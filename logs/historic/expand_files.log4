@@ -1,0 +1,55 @@
+12:38AM UTC on Feb 21, 2023 -- process start time
+remaining file count:  10
+['pre_prod/ecar/evaluation/23Sep-night/AIA-901-925/AIA-901-925.ecar-2019-11-16T23-09-50.159.json.gz', 'pre_prod/ecar/evaluation/23Sep-night/AIA-901-925/AIA-901-925.ecar-last.json.gz', 'pre_prod/ecar/evaluation/23Sep-night/AIA-951-975/AIA-951-975.ecar-2019-11-16T23-15-46.078.json.gz', 'pre_prod/ecar/evaluation/23Sep-night/AIA-951-975/AIA-951-975.ecar-last.json.gz', 'pre_prod/ecar/evaluation/23Sep-red/AIA-1-25/AIA-1-25.ecar-last.json.gz', 'pre_prod/ecar/evaluation/23Sep-red/AIA-201-225/AIA-201-225.ecar-2019-12-08T11-05-10.046.json.gz', 'pre_prod/ecar/evaluation/23Sep-red/AIA-201-225/AIA-201-225.ecar-last.json.gz', 'pre_prod/ecar/evaluation/23Sep-red/AIA-601-625/AIA-601-625.ecar-last.json.gz', 'pre_prod/ecar/evaluation/23Sep-red/AIA-651-675/AIA-651-675.ecar-last.json.gz', 'pre_prod/ecar/evaluation/23Sep-red/AIA-901-925/AIA-901-925.ecar-last.json.gz']
+estimated time is 1.0 hours.
+pre_prod/ecar/evaluation/23Sep-night/AIA-901-925/AIA-901-925.ecar-2019-11-16T23-09-50.159.json.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/evaluation/23Sep-night/AIA-901-925/AIA-901-925.ecar-2019-11-16T23-09-50.159.json
+12:40AM UTC on Feb 21, 2023 -- file upload complete
+--- 147.2807126045227 seconds ---
+12:40AM UTC on Feb 21, 2023 -- There are 223 files remaining to convert
+pre_prod/ecar/evaluation/23Sep-night/AIA-901-925/AIA-901-925.ecar-last.json.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/evaluation/23Sep-night/AIA-901-925/AIA-901-925.ecar-last.json
+12:51AM UTC on Feb 21, 2023 -- file upload complete
+--- 665.9650988578796 seconds ---
+12:51AM UTC on Feb 21, 2023 -- There are 222 files remaining to convert
+pre_prod/ecar/evaluation/23Sep-night/AIA-951-975/AIA-951-975.ecar-2019-11-16T23-15-46.078.json.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/evaluation/23Sep-night/AIA-951-975/AIA-951-975.ecar-2019-11-16T23-15-46.078.json
+12:56AM UTC on Feb 21, 2023 -- file upload complete
+--- 303.15792202949524 seconds ---
+12:56AM UTC on Feb 21, 2023 -- There are 221 files remaining to convert
+pre_prod/ecar/evaluation/23Sep-night/AIA-951-975/AIA-951-975.ecar-last.json.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/evaluation/23Sep-night/AIA-951-975/AIA-951-975.ecar-last.json
+ 1:10AM UTC on Feb 21, 2023 -- file upload complete
+--- 839.124769449234 seconds ---
+ 1:10AM UTC on Feb 21, 2023 -- There are 220 files remaining to convert
+pre_prod/ecar/evaluation/23Sep-red/AIA-1-25/AIA-1-25.ecar-last.json.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/evaluation/23Sep-red/AIA-1-25/AIA-1-25.ecar-last.json
+ 1:20AM UTC on Feb 21, 2023 -- file upload complete
+--- 588.4023025035858 seconds ---
+ 1:20AM UTC on Feb 21, 2023 -- There are 219 files remaining to convert
+pre_prod/ecar/evaluation/23Sep-red/AIA-201-225/AIA-201-225.ecar-2019-12-08T11-05-10.046.json.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/evaluation/23Sep-red/AIA-201-225/AIA-201-225.ecar-2019-12-08T11-05-10.046.json
+ 1:20AM UTC on Feb 21, 2023 -- file upload complete
+--- 18.9194552898407 seconds ---
+ 1:20AM UTC on Feb 21, 2023 -- There are 218 files remaining to convert
+pre_prod/ecar/evaluation/23Sep-red/AIA-201-225/AIA-201-225.ecar-last.json.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/evaluation/23Sep-red/AIA-201-225/AIA-201-225.ecar-last.json
+ 1:30AM UTC on Feb 21, 2023 -- file upload complete
+--- 604.0946094989777 seconds ---
+ 1:30AM UTC on Feb 21, 2023 -- There are 217 files remaining to convert
+pre_prod/ecar/evaluation/23Sep-red/AIA-601-625/AIA-601-625.ecar-last.json.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/evaluation/23Sep-red/AIA-601-625/AIA-601-625.ecar-last.json
+ 1:39AM UTC on Feb 21, 2023 -- file upload complete
+--- 517.4818289279938 seconds ---
+ 1:39AM UTC on Feb 21, 2023 -- There are 216 files remaining to convert
+pre_prod/ecar/evaluation/23Sep-red/AIA-651-675/AIA-651-675.ecar-last.json.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/evaluation/23Sep-red/AIA-651-675/AIA-651-675.ecar-last.json
+ 1:52AM UTC on Feb 21, 2023 -- file upload complete
+--- 790.0671837329865 seconds ---
+ 1:52AM UTC on Feb 21, 2023 -- There are 215 files remaining to convert
+pre_prod/ecar/evaluation/23Sep-red/AIA-901-925/AIA-901-925.ecar-last.json.gz
+/home/ec2-user/SageMaker/tmp/pre_prod/ecar/evaluation/23Sep-red/AIA-901-925/AIA-901-925.ecar-last.json
+ 2:10AM UTC on Feb 21, 2023 -- file upload complete
+--- 1046.696503162384 seconds ---
+ 2:10AM UTC on Feb 21, 2023 -- There are 214 files remaining to convert
+ 2:10AM UTC on Feb 21, 2023 -- total time was  --- 5521.87845158577 seconds ---
