@@ -1,0 +1,5 @@
+Host github.com
+        HostName github.com
+        User git
+        IdentityFile /home/ec2-user/SageMaker/id_rsa
+
