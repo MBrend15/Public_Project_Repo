@@ -19,8 +19,8 @@ vi ~/.ssh/id_rsa
 ```
 You will also need to update file and directory permissions. This might look like:
 ```
-chmod 400 ~/.ssh/*
-chmod 700 ~/.ssh
+chmod 400 .ssh/*
+chmod 700 .ssh
 ```
 
 ### Downloading the data:
