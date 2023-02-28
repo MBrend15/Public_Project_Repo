@@ -56,8 +56,9 @@ The data are combined with the ecar_bro linking them: <br>
 
 
 ### Proposed methods of analysis
-- Provenance Graphs (DAG)
-- Event poison distribution
+- Adjacency matrix 
+- Provenance Graphs (DAG) - graphx, networkx
+- Event poisson distribution for each event
 - Model Type - Bayesian Neural Network
 - Generative AI for DAG, Generative adverserial network
 - Pagerank as a feature
