@@ -1,0 +1,100 @@
+node_sets {
+  key: "actorID"
+  value {
+    description: "Unique ID of the object related to the event."
+    
+    features {
+      key: "parent_image_path"
+      value: {
+        description: "The parent image path associated with the event."
+        dtype: DT_STRING
+        shape { dim { size: -1 } }
+      }
+    }
+    
+  }
+}
+
+
+node_sets {
+  key: "objectID"
+  value {
+    description: "The ID of the object associated with the event."
+    
+    features {
+      key: "base_address"
+      value: {
+        description: "The base address of the object associated with the event."
+        dtype: DT_STRING
+        shape { dim { size: -1 } }
+      }
+    }
+    
+    features {
+      key: "file_path"
+      value: {
+        description: "The file path associated with the event."
+        dtype: DT_STRING
+        shape { dim { size: -1 } }
+      }
+    }
+    
+    features {
+      key: "image_path"
+      value: {
+        description: "The image path associated with the event."
+        dtype: DT_STRING
+        shape { dim { size: -1 } }
+      }
+    }
+    
+  }
+}
+
+
+edge_sets {
+  key: "id"
+  value {
+    description: "The ID of the event."
+    source: "actorID"
+    target: "objectID"
+
+    features {
+      key: "event_minute"
+      value: {
+        description: "The minute from the timestamp of the event."
+        dtype: DT_INT64
+      }
+    }
+    
+    features {
+      key: "event_hour"
+      value: {
+        description: "The hour from the timestamp of the event."
+        dtype: DT_INT64
+      }
+    }
+    
+    features {
+      key: "event_day"
+      value: {
+        description: "The day from the timestamp of the event."
+        dtype: DT_INT64
+      }
+    }
+    
+  }
+}
+
+context {
+  features {
+    key: "malicious"
+    value: {
+      description: "A label classifying if the event is malicious."
+      dtype: DT_STRING
+      shape { dim { size: -1 } }
+    }
+  }
+}
+
+
