@@ -65,4 +65,3 @@ The data are combined with the ecar_bro linking them: <br>
 - Few Shot AI to use a little data
 - Visualization of Attack in Network in Tableau as Report
 
-
