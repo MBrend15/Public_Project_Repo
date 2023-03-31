@@ -4,6 +4,7 @@ locals {
     "raw"     = { environment = "Prod" }
     "trusted" = { environment = "Prod" }
     "refined" = { environment = "Prod" }
+    "studio" = { environment = "Prod" }
   }
 }
 

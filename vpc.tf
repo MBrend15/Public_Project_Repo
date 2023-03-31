@@ -9,16 +9,25 @@ locals {
   }
 }
 
-resource "aws_vpc" "sapient_vpc" {
-  cidr_block           = "10.0.0.0/16"
-  enable_dns_support   = true
-  enable_dns_hostnames = true
+resource "aws_subnet" "sapient-main" {
+  vpc_id     = aws_vpc.sapient_vpc.id
+  cidr_block = "168.31.0.0/20"
+
   tags = {
-    Name = "glue_vpc"
+    name = "sapient-main"
   }
 }
 
-resource "aws_route_table" "serverless_integration_igw_rt" {
+resource "aws_vpc" "sapient_vpc" {
+  cidr_block           = "168.31.0.0/16"
+  enable_dns_support   = true
+  enable_dns_hostnames = true
+  tags = {
+    Name = "sapient_vpc"
+  }
+}
+
+resource "aws_route_table" "sapient-igw-rt" {
   vpc_id = aws_vpc.sapient_vpc.id
 
   route {
@@ -27,25 +36,25 @@ resource "aws_route_table" "serverless_integration_igw_rt" {
   }
 
   tags = {
-    Name = "serverless_integration_igw_rt"
+    Name = "sapient-igw-rt"
   }
 }
 
 resource "aws_main_route_table_association" "sapient_rt_assoc" {
   vpc_id         = aws_vpc.sapient_vpc.id
-  route_table_id = aws_route_table.serverless_integration_igw_rt.id
+  route_table_id = aws_route_table.sapient-igw-rt.id
 }
 
 resource "aws_internet_gateway" "sapient_igw" {
   vpc_id = aws_vpc.sapient_vpc.id
 
   tags = {
-    Name = "serverless_integration_igw"
+    Name = "sapient_igw"
   }
 }
 
 resource "aws_route" "sapient_igw_r" {
-  route_table_id         = aws_route_table.serverless_integration_igw_rt.id
+  route_table_id         = aws_route_table.sapient-igw-rt.id
   destination_cidr_block = "0.0.0.0/0"
   gateway_id             = aws_internet_gateway.sapient_igw.id
 }
@@ -54,14 +63,6 @@ resource "aws_security_group" "allow_tls" {
   name        = "allow_tls"
   description = "Allow TLS inbound traffic"
   vpc_id      = aws_vpc.sapient_vpc.id
-
-  ingress {
-    description = "TLS from VPC"
-    from_port   = 443
-    to_port     = 443
-    protocol    = "tcp"
-    cidr_blocks = [aws_vpc.sapient_vpc.cidr_block]
-  }
 
   egress {
     from_port        = 0
@@ -74,22 +75,4 @@ resource "aws_security_group" "allow_tls" {
   tags = {
     Name = "allow_tls"
   }
-}
-
-resource "aws_security_group_rule" "allow_postgres_from_ip" {
-  type              = "ingress"
-  from_port         = 5432
-  to_port           = 5432
-  protocol          = "tcp"
-  cidr_blocks       = ["23.252.54.0/32"]
-  security_group_id = aws_security_group.allow_tls.id
-}
-
-resource "aws_security_group_rule" "allow_postgres_to_ip" {
-  type              = "egress"
-  from_port         = 5432
-  to_port           = 5432
-  protocol          = "tcp"
-  cidr_blocks       = ["0.0.0.0/0"]
-  security_group_id = aws_security_group.allow_tls.id
 }
