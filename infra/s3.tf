@@ -4,7 +4,8 @@ locals {
     "raw"     = { environment = "Prod" }
     "trusted" = { environment = "Prod" }
     "refined" = { environment = "Prod" }
-    "studio" = { environment = "Prod" }
+    "scripts" = { environment = "Prod" }
+    "queries" = { environment = "Prod" }
   }
 }
 
@@ -71,3 +72,13 @@ resource "aws_s3_bucket_server_side_encryption_configuration" "aws-s3-bucket-con
   }
 }
 
+resource "aws_s3_object" "glue-scripts" {
+  for_each = fileset("./glue_jobs/", "*")
+  bucket   = "sapient-bucket-scripts"
+  key      = each.key
+  source   = "./glue_jobs/${each.key}"
+  etag     = filemd5("./glue_jobs/${each.key}")
+  depends_on = [
+  aws_s3_bucket.sapient-buckets]
+
+}

@@ -13,9 +13,31 @@ data "aws_iam_policy_document" "kms-key-policy-doc" {
     ]
 
     principals {
-      type        = "AWS"
+      type = "AWS"
       identifiers = ["arn:aws:iam::756727001009:root",
-                     "arn:aws:iam::756727001009:role/sapient-sagemaker-role"]
+        "arn:aws:iam::756727001009:role/sapient-sagemaker-role",
+        "arn:aws:iam::756727001009:role/sapient-glue-role"
+      ]
+    }
+
+    principals {
+      type        = "Service"
+      identifiers = ["logs.${var.region}.amazonaws.com"]
+    }
+
+  }
+}
+
+# enable glue service to assume this role
+data "aws_iam_policy_document" "glue-assume-role-policy-doc" {
+
+  statement {
+    actions = ["sts:AssumeRole"]
+
+    effect = "Allow"
+    principals {
+      type        = "Service"
+      identifiers = ["glue.amazonaws.com"]
     }
 
   }
@@ -32,17 +54,6 @@ data "aws_iam_policy_document" "sagemaker-assume-role-policy-doc" {
       identifiers = ["sagemaker.amazonaws.com"]
     }
 
-  }
-}
-
-
-resource "aws_iam_role" "sapient-sagemaker-role" {
-  name               = "sapient-sagemaker-role"
-  assume_role_policy = data.aws_iam_policy_document.sagemaker-assume-role-policy-doc.json
-
-  inline_policy {
-    name   = "sapient-inline-policy"
-    policy = data.aws_iam_policy_document.sapient-sagemaker-inline-policy-doc.json
   }
 }
 
@@ -160,6 +171,122 @@ data "aws_iam_policy_document" "sapient-sagemaker-inline-policy-doc" {
     ]
   }
 }
+
+
+data "aws_iam_policy_document" "sapient-glue-role-policy-doc" {
+
+  statement {
+    actions = [
+      "glue:*",
+      "ec2:DescribeVpcEndpoints",
+      "ec2:DescribeRouteTables",
+      "ec2:CreateNetworkInterface",
+      "ec2:DeleteNetworkInterface",
+      "ec2:DescribeNetworkInterfaces",
+      "ec2:DescribeSecurityGroups",
+      "ec2:DescribeSubnets",
+      "ec2:DescribeVpcAttribute",
+      "cloudwatch:PutMetricData"
+    ]
+    effect = "Allow"
+    resources = [
+      "*",
+    ]
+  }
+
+  statement {
+    actions = [
+      "iam:ListRolePolicies",
+      "iam:GetRole",
+      "iam:GetRolePolicy"
+    ]
+    effect = "Allow"
+    resources = [
+      "*",
+    ]
+  }
+
+  statement {
+    actions = [
+      "s3:CreateBucket",
+      "s3:PutBucketPublicAccessBlock"
+    ]
+    effect = "Allow"
+    resources = [
+      "arn:aws:s3:::aws-glue-*",
+    ]
+  }
+
+  statement {
+    actions = [
+      "s3:ListBucket"
+    ]
+    effect = "Allow"
+    resources = [
+      "arn:aws:s3:::sapient-*"
+    ]
+  }
+
+  statement {
+    actions = [
+      "s3:GetObject",
+      "s3:PutObject",
+      "s3:DeleteObject"
+    ]
+    effect = "Allow"
+    resources = [
+      "arn:aws:s3:::aws-glue-*/*",
+      "arn:aws:s3:::*/*aws-glue-*/*",
+      "arn:aws:s3:::sapient-*/*"
+    ]
+  }
+
+  statement {
+    actions = [
+      "s3:GetObject"
+    ]
+    effect = "Allow"
+    resources = [
+      "arn:aws:s3:::crawler-public*",
+      "arn:aws:s3:::aws-glue-*",
+    ]
+  }
+
+  statement {
+    actions = [
+      "logs:CreateLogGroup",
+      "logs:CreateLogStream",
+      "logs:PutLogEvents",
+      "logs:AssociateKmsKey"
+    ]
+    effect = "Allow"
+    resources = [
+      "arn:aws:logs:*:*:/aws-glue/*"
+    ]
+  }
+
+  statement {
+    effect = "Allow"
+    actions = [
+      "ec2:CreateTags",
+      "ec2:DeleteTags"
+    ]
+    condition {
+      test     = "ForAllValues:StringLike"
+      variable = "aws:TagKeys"
+
+      values = [
+        "aws-glue-service-resource"
+      ]
+    }
+    resources = [
+      "arn:aws:ec2:*:*:network-interface/*",
+      "arn:aws:ec2:*:*:security-group/*",
+      "arn:aws:ec2:*:*:instance/*"
+    ]
+  }
+}
+
 
 data "aws_iam_policy_document" "emr-service-role-policy-doc" {
 
@@ -310,38 +437,6 @@ data "aws_iam_policy_document" "emr-service-role-inline-policy-doc" {
   }
 }
 
-
-resource "aws_iam_role" "sapient_emr_role" {
-  name               = "sapient-emr-service-role"
-  assume_role_policy = data.aws_iam_policy_document.emr-service-role-policy-doc.json
-
-  inline_policy {
-    name   = "sapient-inline-policy"
-    policy = data.aws_iam_policy_document.emr-service-role-inline-policy-doc.json
-  }
-}
-
-# IAM Role for EC2 Instance Profile
-resource "aws_iam_role" "sapient_emr_profile_role" {
-  name = "sapient_emr_profile_role"
-
-  assume_role_policy = <<EOF
-{
-  "Version": "2008-10-17",
-  "Statement": [
-    {
-      "Sid": "",
-      "Effect": "Allow",
-      "Principal": {
-        "Service": "ec2.amazonaws.com"
-      },
-      "Action": "sts:AssumeRole"
-    }
-  ]
-}
-EOF
-}
-
 resource "aws_iam_instance_profile" "emr_profile" {
   name = "emr_profile"
   role = aws_iam_role.sapient_emr_profile_role.name
@@ -385,3 +480,4 @@ resource "aws_iam_role_policy" "iam_emr_profile_policy" {
 }
 EOF
 }
+
