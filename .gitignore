@@ -3,5 +3,4 @@ data
 .terraform
 .ipynb_checkpoints
 spark-warehouse
-saved_model/*
 *checkpoint*
