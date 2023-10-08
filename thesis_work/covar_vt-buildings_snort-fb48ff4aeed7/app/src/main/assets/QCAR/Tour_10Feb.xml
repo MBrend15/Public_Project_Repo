@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="new2" size="1.000000 0.585723" />
+    <ImageTarget name="new" size="1.000000 0.620322" />
+    <ImageTarget name="sample2" size="1.000000 0.562500" />
+    <ImageTarget name="sample" size="1.000000 1.259123" />
+    <ImageTarget name="torgersen-16" size="1.000000 0.562500" />
+    <ImageTarget name="torgersen-15" size="1.000000 0.562500" />
+    <ImageTarget name="torgersen-14" size="1.000000 0.802779" />
+    <ImageTarget name="torgersen-13" size="1.000000 0.745293" />
+  </Tracking>
+</QCARConfig>

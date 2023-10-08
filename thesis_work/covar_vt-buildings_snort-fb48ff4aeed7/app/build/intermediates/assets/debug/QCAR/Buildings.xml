@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="holden-5" size="1.000000 1.124694" />
+    <ImageTarget name="holden-4" size="1.000000 1.020517" />
+    <ImageTarget name="holden-3" size="1.000000 1.846154" />
+    <ImageTarget name="holden-2" size="1.000000 1.712871" />
+    <ImageTarget name="holden-1" size="1.000000 1.663816" />
+    <ImageTarget name="holden-a-0" size="1.000000 1.094681" />
+    <ImageTarget name="mcbryde-3" size="1.000000 1.202069" />
+    <ImageTarget name="mcbryde-2" size="1.000000 0.919706" />
+    <ImageTarget name="patton-a-0" size="1.000000 0.540314" />
+    <ImageTarget name="mcbryde-1" size="1.000000 0.793608" />
+    <ImageTarget name="mcbryde-a-0" size="1.000000 1.491798" />
+    <ImageTarget name="torgersen-3" size="1.000000 0.490964" />
+    <ImageTarget name="torgersen-2" size="1.000000 1.508132" />
+    <ImageTarget name="torgersen-1" size="1.000000 1.155288" />
+    <ImageTarget name="torgersen-0" size="1.000000 0.968195" />
+    <ImageTarget name="patton-3" size="1.000000 0.740120" />
+    <ImageTarget name="patton-2" size="1.000000 0.759625" />
+    <ImageTarget name="patton-1" size="1.000000 0.715099" />
+    <ImageTarget name="torgersen_1" size="1.000000 0.562500" />
+    <ImageTarget name="torgersen_5" size="1.000000 0.562500" />
+    <ImageTarget name="torgersen_4" size="1.000000 0.562500" />
+    <ImageTarget name="torgersen_3" size="1.000000 0.562500" />
+    <ImageTarget name="torgersen_2" size="1.000000 0.562500" />
+    <ImageTarget name="torgersen_0" size="1.000000 0.562500" />
+    <ImageTarget name="newman_6" size="1.000000 0.562500" />
+    <ImageTarget name="newman_5" size="1.000000 0.562500" />
+    <ImageTarget name="newman_4" size="1.000000 0.562500" />
+    <ImageTarget name="newman_3" size="1.000000 1.000335" />
+    <ImageTarget name="newman_2" size="1.000000 0.675433" />
+    <ImageTarget name="newman_1" size="1.000000 0.562500" />
+    <ImageTarget name="newman_0" size="1.000000 1.071285" />
+  </Tracking>
+</QCARConfig>

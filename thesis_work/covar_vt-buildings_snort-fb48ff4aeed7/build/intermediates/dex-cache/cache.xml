@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\building_snort1\app\libs\unity-classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5829b2a0d29fc78ea22ea691dec7eb831767cb69">
+        <dex dex="C:\Users\bcmattina\Documents\building_snort1\app\build\intermediates\transforms\dex\debug\folders\1000\2\unity-classes_1491457507bd49dc940b8c66ddf96dee9012437d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\building_snort1\app\libs\VuforiaUnityPlayer.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2fcc90620f71b291e5a25760091af316998b9b2a">
+        <dex dex="C:\Users\bcmattina\Documents\building_snort1\app\build\intermediates\transforms\dex\debug\folders\1000\2\VuforiaUnityPlayer_e0dd79481c162c9d8d0e983e0f00677d5d876aff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\buildings_snort\app\libs\unity-classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5829b2a0d29fc78ea22ea691dec7eb831767cb69">
+        <dex dex="C:\Users\bcmattina\Documents\buildings_snort\app\build\intermediates\transforms\dex\debug\folders\1000\2\unity-classes_b2fd4f0292adc2a486fc14ab0e11ad400f045864\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\buildings_snort\app\libs\VuforiaUnityPlayer.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2fcc90620f71b291e5a25760091af316998b9b2a">
+        <dex dex="C:\Users\bcmattina\Documents\buildings_snort\app\build\intermediates\transforms\dex\debug\folders\1000\2\VuforiaUnityPlayer_1d9c24547b40e6aa738a4c4f947895902ce4e70f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\building_snort1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e479fd7262dacc92eefe1eafb585f68565e501ca">
+        <dex dex="C:\Users\bcmattina\Documents\building_snort1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_73b4dfe13fc9aa5a95a32ceca73a8780df7b5f6b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\buildings_snort\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f869bbd125befcf5c82dd86f99cf7ee537b59a2d">
+        <dex dex="C:\Users\bcmattina\Documents\buildings_snort\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_caf5fa1cb53f5feb3b371ea02bc39dae92f52caf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\building_snort1\app\libs\Vuforia.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9419379f995bfb5e731572d46c44c40b284322b5">
+        <dex dex="C:\Users\bcmattina\Documents\building_snort1\app\build\intermediates\transforms\dex\debug\folders\1000\2\Vuforia_6e2ae6e605de42a4c4aed533218134ce6ad051d2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\buildings_snort\app\libs\volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="C:\Users\bcmattina\Documents\buildings_snort\app\build\intermediates\transforms\dex\debug\folders\1000\2\volley_ee8db1019857872b71a63d4da2e0796b9a27c798\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\building_snort1\app\libs\volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="C:\Users\bcmattina\Documents\building_snort1\app\build\intermediates\transforms\dex\debug\folders\1000\2\volley_80e8e87901a63b336ce4f86be13795f336a087c3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\buildings_snort\app\libs\Vuforia.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9419379f995bfb5e731572d46c44c40b284322b5">
+        <dex dex="C:\Users\bcmattina\Documents\buildings_snort\app\build\intermediates\transforms\dex\debug\folders\1000\2\Vuforia_50f2d773f5b2561519f821cbca765dbd50f71fc4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\buildings_snort\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f76eaf431bd997328ddfc776d81cfc6917cfa281">
+        <dex dex="C:\Users\bcmattina\Documents\buildings_snort\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_2fd36ea9655a418cd031520e682208e72b267165\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\building_snort1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c4f3eabbedc04619db16244fd5695f4bf2443713">
+        <dex dex="C:\Users\bcmattina\Documents\building_snort1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_a55ca42f52cfde2e947793cc126d64ea28351e22\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "building_snort.CSharp", "building_snort.CSharp.csproj", "{6538DC5E-2593-1262-D010-3A2F33896B1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "building_snort.CSharp.Editor", "building_snort.CSharp.Editor.csproj", "{6A201557-DDED-C119-C9FD-1261EC2C7CAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6538DC5E-2593-1262-D010-3A2F33896B1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6538DC5E-2593-1262-D010-3A2F33896B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6538DC5E-2593-1262-D010-3A2F33896B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6538DC5E-2593-1262-D010-3A2F33896B1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A201557-DDED-C119-C9FD-1261EC2C7CAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A201557-DDED-C119-C9FD-1261EC2C7CAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A201557-DDED-C119-C9FD-1261EC2C7CAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A201557-DDED-C119-C9FD-1261EC2C7CAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

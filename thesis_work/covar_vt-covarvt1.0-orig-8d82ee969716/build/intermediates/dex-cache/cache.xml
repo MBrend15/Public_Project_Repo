@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\NSA_Demo_06Sep2\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="C:\Users\bcmattina\Documents\NSA_Demo_06Sep2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.volley-volley-1.0.0_4ed79387c8c25111fffc73c2279c20437a9e3919\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\NSA_Demo_06Sep2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="805cf82265a6f9c4df0650b7f2b3d6b140e12bf7">
+        <dex dex="C:\Users\bcmattina\Documents\NSA_Demo_06Sep2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e3b171f36bd0533542018aa757644fb20d582c14\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\NSA_Demo_06Sep2\app\libs\Vuforia.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9be6fe42a9843737d973096dd26f8250c3db9022">
+        <dex dex="C:\Users\bcmattina\Documents\NSA_Demo_06Sep2\app\build\intermediates\transforms\dex\debug\folders\1000\2\Vuforia_d4496bbb1fef08ebfa4b4fcd74d9aa30bd2fdb95\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\NSA_Demo_06Sep2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b5e74f31de97f26696c320e68376f2558072552b">
+        <dex dex="C:\Users\bcmattina\Documents\NSA_Demo_06Sep2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_8dd72c92cdcf6c77b99b138c3dcb2996811454fd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\NSA_Demo_06Sep2\app\libs\VuforiaUnityPlayer.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e9653c966030baaf50129735bc7dade4d9a7b952">
+        <dex dex="C:\Users\bcmattina\Documents\NSA_Demo_06Sep2\app\build\intermediates\transforms\dex\debug\folders\1000\2\VuforiaUnityPlayer_7f37d0745b248a3b2d2d9adeeef38a2d2cc759a0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bcmattina\Documents\NSA_Demo_06Sep2\app\libs\unity-classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="5829b2a0d29fc78ea22ea691dec7eb831767cb69">
+        <dex dex="C:\Users\bcmattina\Documents\NSA_Demo_06Sep2\app\build\intermediates\transforms\dex\debug\folders\1000\2\unity-classes_731e194c13db09a331422f4f2ac0ebcfedd747da\classes.dex" />
+    </item>
+
+</items>
